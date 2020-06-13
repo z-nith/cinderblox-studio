@@ -28,6 +28,7 @@
         "notistack": "@latest",
         "react": "@latest",
         "react-dom": "@latest",
+        "react-spring": "^8.0.27",
         "utility-types": "@latest",
         "validator": "@latest",
         "yup": "@latest"
