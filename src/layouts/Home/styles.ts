@@ -5,6 +5,7 @@ const styles: any = (theme: Theme | any) => ({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
+
         height: '100vh',
         weidth: '100vw',
         backgroundColor: 'white',

@@ -1,16 +1,25 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import useStyles from './styles';
-import { Typography, MenuItem } from '@material-ui/core';
+import { Typography, MenuItem, ThemeProvider } from '@material-ui/core';
 import { Button, SocialMediaLink, Link, TextField, ValuePicker } from 'atoms';
 import { GitHub } from 'react-feather';
+import { alternateDarkTheme } from 'theme';
 
-const Home = (props: HomePropTypes) => {
+const CQA = (props: CQAPropTypes) => {
     const classes = useStyles();
+
+    const [selection, setSelection] = useState('Hex');
+
+    const colorFormats = ['Hex', 'RGB', 'HSL', 'HSB', 'CMYK'];
 
     return (
         <div className={classes.root}>
-            <Typography variant={'h1'}>Light theme</Typography>
+            <ThemeProvider theme={alternateDarkTheme}>
+                <Typography variant={'h1'} className={classes.test}>
+                    Dark Theme hello world
+                </Typography>
+            </ThemeProvider>
             <div
                 style={{
                     maxWidth: '300px',
@@ -29,14 +38,20 @@ const Home = (props: HomePropTypes) => {
                     color={'dark'}
                     href={'https://github.com/'}
                 />
-                <Link variant={'default-blue'} href={'/color-studio'}>
+                <Link variant={'default-blue'} href={'/app'}>
                     Click here to go to app
                 </Link>
+                <ValuePicker
+                    pickerValues={colorFormats}
+                    //label="Format"
+                    value={selection}
+                    onChange={(newValue) => setSelection(newValue.target.value)}
+                />
             </div>
         </div>
     );
 };
 
-export type HomePropTypes = {};
+export type CQAPropTypes = {};
 
-export default Home;
+export default CQA;
