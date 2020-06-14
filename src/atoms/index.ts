@@ -5,6 +5,7 @@ import { GridContainer, GridItem } from './Grid';
 import Link from './Link';
 import SocialMediaLink from './SocialMediaLink';
 import TextField from './TextField';
+import ValuePicker from './ValuePicker';
 
 export {
     Button,
@@ -15,4 +16,5 @@ export {
     Link,
     SocialMediaLink,
     TextField,
+    ValuePicker,
 };
