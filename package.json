@@ -7,7 +7,13 @@
     "author": "Jesse Meza <jmeza081@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "dev": "next dev"
+        "dev": "next dev",
+        "dev:now": "now dev --listen 3000",
+        "build": "next build",
+        "deploy": "now --prod",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
     },
     "dependencies": {
         "@apollo/react-hooks": "@latest",
@@ -28,6 +34,7 @@
         "notistack": "@latest",
         "react": "@latest",
         "react-dom": "@latest",
+        "react-feather": "^2.0.8",
         "react-spring": "^8.0.27",
         "utility-types": "@latest",
         "validator": "@latest",
@@ -65,7 +72,8 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "pretty-quick --staged"
+            "pre-commit": "pretty-quick --staged",
+            "pre-push": "yarn test"
         }
     },
     "engines": {
