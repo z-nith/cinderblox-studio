@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="242px" viewBox="0 0 313 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Cloud Short</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M57.9558233,176 C33.3385453,176 12.9650645,156.329156 9.51484363,130.714364 C9.21799509,128.657421 9.04645434,126.555463 9.00820741,124.418135 L9,123 L9,123 C9.21428583,101.243091 23.2276806,83.0686198 42.0137982,78.2509536 C51.5832107,51.2043808 75.7903054,32 104.140562,32 C129.318274,32 151.228223,47.1467279 162.519921,69.4824797 C169.773746,65.3426839 178.039789,63 186.811245,63 C215.634298,63 239,88.2959116 239,119.5 C239,120.675816 238.966823,121.843243 238.901428,123.001244 L239,123 C239,152.271092 217.081731,176 190.044177,176 L57.9558233,176 Z" id="path-1"></path>
+        <filter x="-33.0%" y="-51.4%" width="166.1%" height="205.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0549019608   0 0 0 0 0.0705882353   0 0 0 0 0.0823529412  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(0.000000, -434.000000)">
+            <g id="Cloud-Short" transform="translate(26.000000, 448.000000)">
+                <g id="Path" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M53,144 C26.3491208,144 4.29261336,124.329156 0.557374189,98.7143639 C0.236003378,96.6574208 0.0502918729,94.5554632 0.00888541543,92.4181352 L0,91 L0,91 C0.231987708,69.2430909 15.4030108,51.0686198 35.741025,46.2509536 C46.1009542,19.2043808 72.3077654,0 103,0 C130.25761,0 153.977511,15.1467279 166.202001,37.4824797 C174.055055,33.3426839 183.003946,31 192.5,31 C223.704088,31 249,56.2959116 249,87.5 C249,88.675816 248.964083,89.8432431 248.893285,91.0012438 L249,91 C249,120.271092 225.271092,144 196,144 L53,144 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="343px" height="223px" viewBox="0 0 343 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Cloud Large</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M105.5,32 C124.711458,32 141.898408,40.6679507 153.363331,54.3063329 C157.103375,53.4518849 160.998916,53 165,53 C188.868479,53 208.980963,69.0813293 215.093747,91.0002834 L237,91 C254.120827,91 268,104.879173 268,122 L268,124 C268,142.043143 253.519411,156.704163 235.545715,156.995579 L235,157 L33,157 C14.7746033,157 0,142.225397 0,124 L0,122 C0,104.879173 13.8791728,91 31,91 L43.0963429,91.0000919 C44.9117814,58.1103841 72.1566872,32 105.5,32 Z" id="path-1"></path>
+        <filter x="-28.4%" y="-59.2%" width="156.7%" height="221.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0549019608   0 0 0 0 0.0705882353   0 0 0 0 0.0823529412  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-1097.000000, -830.000000)">
+            <g id="Cloud-Large" transform="translate(1145.000000, 844.000000)">
+                <g id="Path" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M105.5,0 C124.711458,0 141.898408,8.66795068 153.363331,22.3063329 C157.103375,21.4518849 160.998916,21 165,21 C188.868479,21 208.980963,37.0813293 215.093747,59.0002834 L237,59 C254.120827,59 268,72.8791728 268,90 L268,92 C268,110.043143 253.519411,124.704163 235.545715,124.995579 L235,125 L33,125 C14.7746033,125 0,110.225397 0,92 L0,90 C0,72.8791728 13.8791728,59 31,59 L43.0963429,59.0000919 C44.9117814,26.1103841 72.1566872,0 105.5,0 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
