@@ -26,12 +26,6 @@ declare module '@material-ui/core/styles/createPalette' {
         charcoalDark: string;
         charcoalLight: string;
         greyDefault: string;
-        typographyColors: {
-            primaryLight: string;
-            secondaryLight: string;
-            primaryDark: string;
-            secondaryDark: string;
-        };
     }
 
     export interface Palette extends BasePalette {
