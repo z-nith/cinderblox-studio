@@ -90,7 +90,7 @@ exports[`CopyrightNotice should render without error 1`] = `
           "augmentColor": [Function],
           "background": Object {
             "default": "#FFFFFF",
-            "paper": "#fff",
+            "paper": "#FFFFFF",
           },
           "common": Object {
             "black": "#000000",
@@ -106,12 +106,6 @@ exports[`CopyrightNotice should render without error 1`] = `
             "greyDark": "#DDE1E4",
             "greyDefault": "#EBEEEF",
             "greyLight": "#F9F9FA",
-            "typographyColors": Object {
-              "primaryDark": "rgba(255, 255, 255, 0.95)",
-              "primaryLight": "rgba(6, 41, 61, 1)",
-              "secondaryDark": "rgba(255, 255, 255, 0.70)",
-              "secondaryLight": "rgba(6, 41, 61, 0.75)",
-            },
             "white60": "rgba(255, 255, 255, 0.60)",
             "white75": "rgba(255, 255, 255, 0.75)",
           },
@@ -164,10 +158,11 @@ exports[`CopyrightNotice should render without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": "rgba(0, 0, 0, 0.38)",
-            "hint": "rgba(0, 0, 0, 0.38)",
-            "primary": "rgba(0, 0, 0, 0.87)",
-            "secondary": "rgba(0, 0, 0, 0.54)",
+            "disabled": " rgba(4, 28, 41, 0.75)",
+            "divider": "#DDE1E4",
+            "hint": " rgba(4, 28, 41, 0.75)",
+            "primary": "rgba(4, 28, 41, 1)",
+            "secondary": "rgba(4, 28, 41, 0.56)",
           },
           "tonalOffset": 0.2,
           "type": "light",
