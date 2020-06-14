@@ -10,7 +10,7 @@ const styles: any = (theme: Theme | any) => ({
         textDecoration: 'none',
     },
     'footer-link': {
-        color: theme.palette.custom.typographyColors.secondaryLight,
+        color: theme.palette.text.secondary,
         '&:hover': {
             color: theme.palette.primary.main,
         },

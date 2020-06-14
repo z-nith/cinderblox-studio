@@ -21,7 +21,7 @@ const SocialMediaLink = (props: SocialMediaLinkPropTypes) => {
     // Icon Color map to theme
     const colorMap = {
         light: theme.palette.common.white,
-        dark: theme.palette.custom.typographyColors.secondaryDark,
+        dark: theme.palette.text.secondary,
     };
 
     const renderSocialMediaLink = () => {
