@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { ThemeProvider } from '@material-ui/core';
-import theme from 'theme/customTheme';
+import theme from 'theme';
 import { Home } from 'layouts';
 import { HomePropTypes } from 'layouts/Home/Home';
 

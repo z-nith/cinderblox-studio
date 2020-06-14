@@ -1,0 +1,637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render without error 1`] = `
+<HomeWithTheme>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Object {
+          "between": [Function],
+          "down": [Function],
+          "keys": Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ],
+          "only": [Function],
+          "up": [Function],
+          "values": Object {
+            "lg": 1280,
+            "md": 960,
+            "sm": 600,
+            "xl": 1920,
+            "xs": 0,
+          },
+          "width": [Function],
+        },
+        "direction": "ltr",
+        "mixins": Object {
+          "gutters": [Function],
+          "toolbar": Object {
+            "@media (min-width:0px) and (orientation: landscape)": Object {
+              "minHeight": 48,
+            },
+            "@media (min-width:600px)": Object {
+              "minHeight": 64,
+            },
+            "minHeight": 56,
+          },
+        },
+        "overrides": Object {
+          "MuiTypography": Object {
+            "h1": Object {
+              "fontFamily": "Montserrat",
+              "fontWeight": 900,
+            },
+            "h2": Object {
+              "fontFamily": "Montserrat",
+              "fontWeight": 900,
+            },
+            "h3": Object {
+              "fontFamily": "Montserrat",
+              "fontWeight": 900,
+            },
+            "h4": Object {
+              "fontFamily": "Montserrat",
+              "fontWeight": 900,
+            },
+            "h5": Object {
+              "fontFamily": "Montserrat",
+              "fontWeight": 900,
+            },
+            "h6": Object {
+              "fontFamily": "Montserrat",
+              "fontWeight": 900,
+            },
+            "subtitle1": Object {
+              "fontWeight": "bold",
+            },
+            "subtitle2": Object {
+              "fontWeight": "bold",
+            },
+          },
+        },
+        "palette": Object {
+          "action": Object {
+            "activatedOpacity": 0.12,
+            "active": "rgba(0, 0, 0, 0.54)",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
+          },
+          "augmentColor": [Function],
+          "background": Object {
+            "default": "#FFFFFF",
+            "paper": "#fff",
+          },
+          "common": Object {
+            "black": "#000000",
+            "white": "#FFFFFF",
+          },
+          "contrastThreshold": 3,
+          "custom": Object {
+            "black60": "rgba(0, 0, 0, 0.60)",
+            "black75": "rgba(0, 0, 0, 0.75)",
+            "charcoal": "#121516",
+            "charcoalDark": "#0E1214",
+            "charcoalLight": "#181C1E",
+            "greyDark": "#DDE1E4",
+            "greyDefault": "#EBEEEF",
+            "greyLight": "#F9F9FA",
+            "typographyColors": Object {
+              "primaryDark": "rgba(255, 255, 255, 0.95)",
+              "primaryLight": "rgba(6, 41, 61, 1)",
+              "secondaryDark": "rgba(255, 255, 255, 0.70)",
+              "secondaryLight": "rgba(6, 41, 61, 0.75)",
+            },
+            "white60": "rgba(255, 255, 255, 0.60)",
+            "white75": "rgba(255, 255, 255, 0.75)",
+          },
+          "divider": "rgba(0, 0, 0, 0.12)",
+          "error": Object {
+            "contrastText": "#fff",
+            "dark": "#d32f2f",
+            "light": "#e57373",
+            "main": "#f44336",
+          },
+          "getContrastText": [Function],
+          "grey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "800": "#424242",
+            "900": "#212121",
+            "A100": "#d5d5d5",
+            "A200": "#aaaaaa",
+            "A400": "#303030",
+            "A700": "#616161",
+          },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
+          "primary": Object {
+            "contrastText": "#fff",
+            "dark": "#A81432",
+            "light": "#E15F79",
+            "main": "#DB1A3F",
+          },
+          "secondary": Object {
+            "contrastText": "#fff",
+            "dark": "#365775",
+            "light": "#4FBEFF",
+            "main": "#2C92CD",
+          },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
+          "text": Object {
+            "disabled": "rgba(0, 0, 0, 0.38)",
+            "hint": "rgba(0, 0, 0, 0.38)",
+            "primary": "rgba(0, 0, 0, 0.87)",
+            "secondary": "rgba(0, 0, 0, 0.54)",
+          },
+          "tonalOffset": 0.2,
+          "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#f57c00",
+            "light": "#ffb74d",
+            "main": "#ff9800",
+          },
+        },
+        "props": Object {},
+        "shadows": Array [
+          "none",
+          "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+          "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+          "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+          "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+          "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+          "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+          "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+          "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+          "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+          "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+          "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+          "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+          "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+          "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+          "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+          "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+          "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+          "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+          "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+          "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+          "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+          "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+          "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+          "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+        ],
+        "shape": Object {
+          "borderRadius": 4,
+        },
+        "spacing": [Function],
+        "transitions": Object {
+          "create": [Function],
+          "duration": Object {
+            "complex": 375,
+            "enteringScreen": 225,
+            "leavingScreen": 195,
+            "short": 250,
+            "shorter": 200,
+            "shortest": 150,
+            "standard": 300,
+          },
+          "easing": Object {
+            "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+            "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+            "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+          },
+          "getAutoHeightDuration": [Function],
+        },
+        "typography": Object {
+          "body1": Object {
+            "fontFamily": "Lato",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+            "lineHeight": 1.5,
+          },
+          "body2": Object {
+            "fontFamily": "Lato",
+            "fontSize": "0.875rem",
+            "fontWeight": 400,
+            "lineHeight": 1.43,
+          },
+          "button": Object {
+            "fontFamily": "Lato",
+            "fontSize": "0.875rem",
+            "fontWeight": 500,
+            "lineHeight": 1.75,
+            "textTransform": "uppercase",
+          },
+          "caption": Object {
+            "fontFamily": "Lato",
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+            "lineHeight": 1.66,
+          },
+          "fontFamily": "Lato",
+          "fontSize": 14,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+          "h1": Object {
+            "@media (min-width:1280px)": Object {
+              "fontSize": "5.9983rem",
+            },
+            "@media (min-width:600px)": Object {
+              "fontSize": "4.7129rem",
+            },
+            "@media (min-width:960px)": Object {
+              "fontSize": "5.3556rem",
+            },
+            "fontFamily": "Lato",
+            "fontSize": "3.5rem",
+            "fontWeight": 300,
+            "lineHeight": 1.167,
+          },
+          "h2": Object {
+            "@media (min-width:1280px)": Object {
+              "fontSize": "3.75rem",
+            },
+            "@media (min-width:600px)": Object {
+              "fontSize": "2.9167rem",
+            },
+            "@media (min-width:960px)": Object {
+              "fontSize": "3.3333rem",
+            },
+            "fontFamily": "Lato",
+            "fontSize": "2.375rem",
+            "fontWeight": 300,
+            "lineHeight": 1.2,
+          },
+          "h3": Object {
+            "@media (min-width:1280px)": Object {
+              "fontSize": "2.9991rem",
+            },
+            "@media (min-width:600px)": Object {
+              "fontSize": "2.5707rem",
+            },
+            "@media (min-width:960px)": Object {
+              "fontSize": "2.7849rem",
+            },
+            "fontFamily": "Lato",
+            "fontSize": "2rem",
+            "fontWeight": 400,
+            "lineHeight": 1.167,
+          },
+          "h4": Object {
+            "@media (min-width:1280px)": Object {
+              "fontSize": "2.0243rem",
+            },
+            "@media (min-width:600px)": Object {
+              "fontSize": "1.8219rem",
+            },
+            "@media (min-width:960px)": Object {
+              "fontSize": "2.0243rem",
+            },
+            "fontFamily": "Lato",
+            "fontSize": "1.5625rem",
+            "fontWeight": 400,
+            "lineHeight": 1.235,
+          },
+          "h5": Object {
+            "@media (min-width:1280px)": Object {
+              "fontSize": "1.4993rem",
+            },
+            "@media (min-width:600px)": Object {
+              "fontSize": "1.3118rem",
+            },
+            "@media (min-width:960px)": Object {
+              "fontSize": "1.4993rem",
+            },
+            "fontFamily": "Lato",
+            "fontSize": "1.25rem",
+            "fontWeight": 400,
+            "lineHeight": 1.334,
+          },
+          "h6": Object {
+            "@media (min-width:1280px)": Object {
+              "fontSize": "1.25rem",
+            },
+            "@media (min-width:600px)": Object {
+              "fontSize": "1.25rem",
+            },
+            "@media (min-width:960px)": Object {
+              "fontSize": "1.25rem",
+            },
+            "fontFamily": "Lato",
+            "fontSize": "1.125rem",
+            "fontWeight": 500,
+            "lineHeight": 1.6,
+          },
+          "htmlFontSize": 16,
+          "overline": Object {
+            "fontFamily": "Lato",
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+            "lineHeight": 2.66,
+            "textTransform": "uppercase",
+          },
+          "pxToRem": [Function],
+          "round": [Function],
+          "subtitle1": Object {
+            "fontFamily": "Lato",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+            "lineHeight": 1.75,
+          },
+          "subtitle2": Object {
+            "fontFamily": "Lato",
+            "fontSize": "0.875rem",
+            "fontWeight": 500,
+            "lineHeight": 1.57,
+          },
+        },
+        "zIndex": Object {
+          "appBar": 1100,
+          "drawer": 1200,
+          "mobileStepper": 1000,
+          "modal": 1300,
+          "snackbar": 1400,
+          "speedDial": 1050,
+          "tooltip": 1500,
+        },
+        Symbol(mui.nested): false,
+      }
+    }
+  >
+    <Index>
+      <Home>
+        <div
+          className="makeStyles-root-1"
+        >
+          <WithStyles(ForwardRef(Typography))
+            variant="h1"
+          >
+            <ForwardRef(Typography)
+              classes={
+                Object {
+                  "alignCenter": "MuiTypography-alignCenter",
+                  "alignJustify": "MuiTypography-alignJustify",
+                  "alignLeft": "MuiTypography-alignLeft",
+                  "alignRight": "MuiTypography-alignRight",
+                  "body1": "MuiTypography-body1",
+                  "body2": "MuiTypography-body2",
+                  "button": "MuiTypography-button",
+                  "caption": "MuiTypography-caption",
+                  "colorError": "MuiTypography-colorError",
+                  "colorInherit": "MuiTypography-colorInherit",
+                  "colorPrimary": "MuiTypography-colorPrimary",
+                  "colorSecondary": "MuiTypography-colorSecondary",
+                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                  "displayBlock": "MuiTypography-displayBlock",
+                  "displayInline": "MuiTypography-displayInline",
+                  "gutterBottom": "MuiTypography-gutterBottom",
+                  "h1": "MuiTypography-h1",
+                  "h2": "MuiTypography-h2",
+                  "h3": "MuiTypography-h3",
+                  "h4": "MuiTypography-h4",
+                  "h5": "MuiTypography-h5",
+                  "h6": "MuiTypography-h6",
+                  "noWrap": "MuiTypography-noWrap",
+                  "overline": "MuiTypography-overline",
+                  "paragraph": "MuiTypography-paragraph",
+                  "root": "MuiTypography-root",
+                  "srOnly": "MuiTypography-srOnly",
+                  "subtitle1": "MuiTypography-subtitle1",
+                  "subtitle2": "MuiTypography-subtitle2",
+                }
+              }
+              variant="h1"
+            >
+              <h1
+                className="MuiTypography-root MuiTypography-h1"
+              >
+                Hello world!
+              </h1>
+            </ForwardRef(Typography)>
+          </WithStyles(ForwardRef(Typography))>
+          <div
+            style={
+              Object {
+                "maxWidth": "300px",
+              }
+            }
+          >
+            <Button
+              color="primary"
+              onClick={[Function]}
+              startIcon={
+                <GitHub
+                  color="white"
+                  size={18}
+                />
+              }
+              variant="contained"
+            >
+              <WithStyles(ForwardRef(Button))
+                classes={
+                  Object {
+                    "containedPrimary": "makeStyles-containedPrimary-33",
+                    "containedSecondary": "makeStyles-containedSecondary-34",
+                    "label": "makeStyles-buttonLabel-32",
+                    "root": undefined,
+                  }
+                }
+                color="primary"
+                disableElevation={true}
+                onClick={[Function]}
+                startIcon={
+                  <GitHub
+                    color="white"
+                    size={18}
+                  />
+                }
+                variant="contained"
+              >
+                <ForwardRef(Button)
+                  classes={
+                    Object {
+                      "colorInherit": "MuiButton-colorInherit",
+                      "contained": "MuiButton-contained",
+                      "containedPrimary": "MuiButton-containedPrimary makeStyles-containedPrimary-33",
+                      "containedSecondary": "MuiButton-containedSecondary makeStyles-containedSecondary-34",
+                      "containedSizeLarge": "MuiButton-containedSizeLarge",
+                      "containedSizeSmall": "MuiButton-containedSizeSmall",
+                      "disableElevation": "MuiButton-disableElevation",
+                      "disabled": "Mui-disabled",
+                      "endIcon": "MuiButton-endIcon",
+                      "focusVisible": "Mui-focusVisible",
+                      "fullWidth": "MuiButton-fullWidth",
+                      "iconSizeLarge": "MuiButton-iconSizeLarge",
+                      "iconSizeMedium": "MuiButton-iconSizeMedium",
+                      "iconSizeSmall": "MuiButton-iconSizeSmall",
+                      "label": "MuiButton-label makeStyles-buttonLabel-32",
+                      "outlined": "MuiButton-outlined",
+                      "outlinedPrimary": "MuiButton-outlinedPrimary",
+                      "outlinedSecondary": "MuiButton-outlinedSecondary",
+                      "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                      "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                      "root": "MuiButton-root",
+                      "sizeLarge": "MuiButton-sizeLarge",
+                      "sizeSmall": "MuiButton-sizeSmall",
+                      "startIcon": "MuiButton-startIcon",
+                      "text": "MuiButton-text",
+                      "textPrimary": "MuiButton-textPrimary",
+                      "textSecondary": "MuiButton-textSecondary",
+                      "textSizeLarge": "MuiButton-textSizeLarge",
+                      "textSizeSmall": "MuiButton-textSizeSmall",
+                    }
+                  }
+                  color="primary"
+                  disableElevation={true}
+                  onClick={[Function]}
+                  startIcon={
+                    <GitHub
+                      color="white"
+                      size={18}
+                    />
+                  }
+                  variant="contained"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    className="MuiButton-root MuiButton-contained MuiButton-containedPrimary makeStyles-containedPrimary-33 MuiButton-disableElevation"
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <ForwardRef(ButtonBase)
+                      className="MuiButton-root MuiButton-contained MuiButton-containedPrimary makeStyles-containedPrimary-33 MuiButton-disableElevation"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary makeStyles-containedPrimary-33 MuiButton-disableElevation"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={0}
+                        type="button"
+                      >
+                        <span
+                          className="MuiButton-label makeStyles-buttonLabel-32"
+                        >
+                          <span
+                            className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                          >
+                            <GitHub
+                              color="white"
+                              size={18}
+                            >
+                              <svg
+                                fill="none"
+                                height={18}
+                                stroke="white"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                viewBox="0 0 24 24"
+                                width={18}
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                />
+                              </svg>
+                            </GitHub>
+                          </span>
+                          Get Started
+                        </span>
+                        <WithStyles(memo)
+                          center={false}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={false}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Button)>
+              </WithStyles(ForwardRef(Button))>
+            </Button>
+          </div>
+        </div>
+      </Home>
+    </Index>
+  </ThemeProvider>
+</HomeWithTheme>
+`;

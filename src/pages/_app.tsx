@@ -4,7 +4,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import { NextComponentType, NextPageContext } from 'next';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
-import theme from 'theme/customTheme';
+import theme from 'theme';
 
 export default function MyApp(props: any) {
     const { Component, pageProps } = props;
@@ -20,7 +20,7 @@ export default function MyApp(props: any) {
     return (
         <React.Fragment>
             <Head>
-                <title>My page</title>
+                <title>CinderBlox</title>
                 <meta
                     name="viewport"
                     content="minimum-scale=1, initial-scale=1, width=device-width"
