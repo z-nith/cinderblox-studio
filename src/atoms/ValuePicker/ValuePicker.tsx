@@ -1,6 +1,5 @@
-import { MenuItem, TextField } from '@material-ui/core';
 import React from 'react';
-import { ValuePickerPropTypes } from '.';
+import { MenuItem, TextField, TextFieldProps } from '@material-ui/core';
 import useStyles from './styles';
 
 const ValuePicker = (props: ValuePickerPropTypes) => {
@@ -40,6 +39,10 @@ const ValuePicker = (props: ValuePickerPropTypes) => {
             ))}
         </TextField>
     );
+};
+
+export type ValuePickerPropTypes = TextFieldProps & {
+    pickerValues: string[];
 };
 
 export default ValuePicker;
