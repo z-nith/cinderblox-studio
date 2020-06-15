@@ -15,6 +15,7 @@ const basePalette = {
     },
     custom: {
         greyDefault: '#EBEEEF',
+        greyDarker: '#CDD4D8',
         greyDark: '#DDE1E4',
         greyLight: '#F9F9FA',
         white75: 'rgba(255, 255, 255, 0.75)',

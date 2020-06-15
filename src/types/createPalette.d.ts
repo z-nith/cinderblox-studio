@@ -16,8 +16,10 @@ declare module '@material-ui/core/styles/createPalette' {
     };
 
     interface CustomColors {
+        greyDefault: string;
         greyDark: string;
         greyLight: string;
+        greyDarker: string;
         white75: string;
         white60: string;
         black75: string;
@@ -25,7 +27,6 @@ declare module '@material-ui/core/styles/createPalette' {
         charcoal: string;
         charcoalDark: string;
         charcoalLight: string;
-        greyDefault: string;
     }
 
     export interface Palette extends BasePalette {
