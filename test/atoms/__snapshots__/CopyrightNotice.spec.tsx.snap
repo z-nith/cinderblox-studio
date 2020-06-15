@@ -104,6 +104,7 @@ exports[`CopyrightNotice should render without error 1`] = `
             "charcoalDark": "#0E1214",
             "charcoalLight": "#181C1E",
             "greyDark": "#DDE1E4",
+            "greyDarker": "#CDD4D8",
             "greyDefault": "#EBEEEF",
             "greyLight": "#F9F9FA",
             "white60": "rgba(255, 255, 255, 0.60)",

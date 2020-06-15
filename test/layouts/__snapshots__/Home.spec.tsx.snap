@@ -104,6 +104,7 @@ exports[`Home should render without error 1`] = `
             "charcoalDark": "#0E1214",
             "charcoalLight": "#181C1E",
             "greyDark": "#DDE1E4",
+            "greyDarker": "#CDD4D8",
             "greyDefault": "#EBEEEF",
             "greyLight": "#F9F9FA",
             "white60": "rgba(255, 255, 255, 0.60)",
@@ -450,6 +451,7 @@ exports[`Home should render without error 1`] = `
                   size={18}
                 />
               }
+              usePopEffect={false}
               variant="contained"
             >
               <WithStyles(ForwardRef(Button))
@@ -470,6 +472,7 @@ exports[`Home should render without error 1`] = `
                     size={18}
                   />
                 }
+                usePopEffect={false}
                 variant="contained"
               >
                 <ForwardRef(Button)
@@ -515,6 +518,7 @@ exports[`Home should render without error 1`] = `
                       size={18}
                     />
                   }
+                  usePopEffect={false}
                   variant="contained"
                 >
                   <WithStyles(ForwardRef(ButtonBase))
@@ -525,6 +529,7 @@ exports[`Home should render without error 1`] = `
                     focusVisibleClassName="Mui-focusVisible"
                     onClick={[Function]}
                     type="button"
+                    usePopEffect={false}
                   >
                     <ForwardRef(ButtonBase)
                       className="MuiButton-root MuiButton-contained MuiButton-containedPrimary makeStyles-containedPrimary-33 MuiButton-disableElevation"
@@ -541,6 +546,7 @@ exports[`Home should render without error 1`] = `
                       focusVisibleClassName="Mui-focusVisible"
                       onClick={[Function]}
                       type="button"
+                      usePopEffect={false}
                     >
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary makeStyles-containedPrimary-33 MuiButton-disableElevation"
@@ -559,6 +565,7 @@ exports[`Home should render without error 1`] = `
                         onTouchStart={[Function]}
                         tabIndex={0}
                         type="button"
+                        usePopEffect={false}
                       >
                         <span
                           className="MuiButton-label makeStyles-buttonLabel-32"
@@ -588,6 +595,203 @@ exports[`Home should render without error 1`] = `
                             </GitHub>
                           </span>
                           Get Started
+                        </span>
+                        <WithStyles(memo)
+                          center={false}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={false}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Button)>
+              </WithStyles(ForwardRef(Button))>
+            </Button>
+            <Button
+              color="secondary"
+              onClick={[Function]}
+              startIcon={
+                <ExternalLink
+                  color="rgba(4, 28, 41, 1)"
+                  size={18}
+                />
+              }
+              usePopEffect={false}
+              variant="contained"
+            >
+              <WithStyles(ForwardRef(Button))
+                classes={
+                  Object {
+                    "containedPrimary": "makeStyles-containedPrimary-33",
+                    "containedSecondary": "makeStyles-containedSecondary-34",
+                    "label": "makeStyles-buttonLabel-32",
+                    "root": undefined,
+                  }
+                }
+                color="secondary"
+                disableElevation={true}
+                onClick={[Function]}
+                startIcon={
+                  <ExternalLink
+                    color="rgba(4, 28, 41, 1)"
+                    size={18}
+                  />
+                }
+                usePopEffect={false}
+                variant="contained"
+              >
+                <ForwardRef(Button)
+                  classes={
+                    Object {
+                      "colorInherit": "MuiButton-colorInherit",
+                      "contained": "MuiButton-contained",
+                      "containedPrimary": "MuiButton-containedPrimary makeStyles-containedPrimary-33",
+                      "containedSecondary": "MuiButton-containedSecondary makeStyles-containedSecondary-34",
+                      "containedSizeLarge": "MuiButton-containedSizeLarge",
+                      "containedSizeSmall": "MuiButton-containedSizeSmall",
+                      "disableElevation": "MuiButton-disableElevation",
+                      "disabled": "Mui-disabled",
+                      "endIcon": "MuiButton-endIcon",
+                      "focusVisible": "Mui-focusVisible",
+                      "fullWidth": "MuiButton-fullWidth",
+                      "iconSizeLarge": "MuiButton-iconSizeLarge",
+                      "iconSizeMedium": "MuiButton-iconSizeMedium",
+                      "iconSizeSmall": "MuiButton-iconSizeSmall",
+                      "label": "MuiButton-label makeStyles-buttonLabel-32",
+                      "outlined": "MuiButton-outlined",
+                      "outlinedPrimary": "MuiButton-outlinedPrimary",
+                      "outlinedSecondary": "MuiButton-outlinedSecondary",
+                      "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                      "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                      "root": "MuiButton-root",
+                      "sizeLarge": "MuiButton-sizeLarge",
+                      "sizeSmall": "MuiButton-sizeSmall",
+                      "startIcon": "MuiButton-startIcon",
+                      "text": "MuiButton-text",
+                      "textPrimary": "MuiButton-textPrimary",
+                      "textSecondary": "MuiButton-textSecondary",
+                      "textSizeLarge": "MuiButton-textSizeLarge",
+                      "textSizeSmall": "MuiButton-textSizeSmall",
+                    }
+                  }
+                  color="secondary"
+                  disableElevation={true}
+                  onClick={[Function]}
+                  startIcon={
+                    <ExternalLink
+                      color="rgba(4, 28, 41, 1)"
+                      size={18}
+                    />
+                  }
+                  usePopEffect={false}
+                  variant="contained"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    className="MuiButton-root MuiButton-contained MuiButton-containedSecondary makeStyles-containedSecondary-34 MuiButton-disableElevation"
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    onClick={[Function]}
+                    type="button"
+                    usePopEffect={false}
+                  >
+                    <ForwardRef(ButtonBase)
+                      className="MuiButton-root MuiButton-contained MuiButton-containedSecondary makeStyles-containedSecondary-34 MuiButton-disableElevation"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      type="button"
+                      usePopEffect={false}
+                    >
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary makeStyles-containedSecondary-34 MuiButton-disableElevation"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={0}
+                        type="button"
+                        usePopEffect={false}
+                      >
+                        <span
+                          className="MuiButton-label makeStyles-buttonLabel-32"
+                        >
+                          <span
+                            className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                          >
+                            <ExternalLink
+                              color="rgba(4, 28, 41, 1)"
+                              size={18}
+                            >
+                              <svg
+                                fill="none"
+                                height={18}
+                                stroke="rgba(4, 28, 41, 1)"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                viewBox="0 0 24 24"
+                                width={18}
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                />
+                                <polyline
+                                  points="15 3 21 3 21 9"
+                                />
+                                <line
+                                  x1="10"
+                                  x2="21"
+                                  y1="14"
+                                  y2="3"
+                                />
+                              </svg>
+                            </ExternalLink>
+                          </span>
+                          Learn More
                         </span>
                         <WithStyles(memo)
                           center={false}
