@@ -2,7 +2,8 @@ import React from 'react';
 import useStyles from './styles';
 import { Button as MuiButton, ButtonProps } from '@material-ui/core';
 
-const Button = (props: ButtonProps) => {
+//TODO: add pop up effect when nearing completion
+const Button = (props: ButtonPropTypes) => {
     const classes = useStyles();
 
     return (
@@ -15,8 +16,16 @@ const Button = (props: ButtonProps) => {
             }}
             disableElevation
             {...props}
-        ></MuiButton>
+        />
     );
+};
+
+Button.defaultProps = {
+    usePopEffect: false,
+};
+
+export type ButtonPropTypes = ButtonProps & {
+    usePopEffect: Boolean;
 };
 
 export default Button;

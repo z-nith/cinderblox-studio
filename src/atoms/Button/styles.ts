@@ -12,11 +12,14 @@ const styles: any = (theme: Theme | any) => ({
         borderRadius: '28px',
         padding: theme.spacing(1, 3),
         color: theme.palette.common.white,
-        boxShadow: '0px 5px 0px 0px rgba(0,0,68,.50)',
+        //boxShadow: '0px 10px  rgba(0,0,0,0.80)',
+        //transform: 'translate(0px, -4px)',
+        // '&:active': {
+        //     transform: 'translate(0px, 10px)',
+        // },
         '&:hover': {
-            backgroundColor: theme.palette.primary.main,
-            transform: 'translate(0px, -4px)',
-            boxShadow: '0px 5px 0px 0px rgba(0,0,68,0.80)',
+            backgroundColor: theme.palette.primary.dark,
+            //boxShadow: '0px 10px rgba(0,0,0,0.80)',
         },
     },
     containedSecondary: {
@@ -24,7 +27,10 @@ const styles: any = (theme: Theme | any) => ({
         height: '56px',
         borderRadius: '28px',
         padding: theme.spacing(1, 3),
-        color: theme.palette.common.white,
+        color: theme.palette.text.primary,
+        '&:hover': {
+            backgroundColor: theme.palette.custom.greyDarker,
+        },
     },
 });
 
