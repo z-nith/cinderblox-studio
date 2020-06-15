@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import useStyles from './styles';
-import { Typography, MenuItem } from '@material-ui/core';
+import { Typography, MenuItem, useTheme } from '@material-ui/core';
 import { Button, SocialMediaLink, Link, TextField, ValuePicker } from 'atoms';
-import { GitHub } from 'react-feather';
+import { GitHub, ExternalLink } from 'react-feather';
 
 const Home = (props: HomePropTypes) => {
     const classes = useStyles();
+
+    const theme = useTheme();
 
     return (
         <div className={classes.root}>
@@ -23,6 +25,16 @@ const Home = (props: HomePropTypes) => {
                     startIcon={<GitHub color="white" size={18} />}
                 >
                     Get Started
+                </Button>
+                <Button
+                    variant={'contained'}
+                    color={'secondary'}
+                    onClick={() => {}}
+                    startIcon={
+                        <ExternalLink color={theme.palette.text.primary} size={18} />
+                    }
+                >
+                    Learn More
                 </Button>
                 <SocialMediaLink
                     variant={'github'}
