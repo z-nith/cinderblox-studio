@@ -2,7 +2,12 @@ import { Theme, makeStyles } from '@material-ui/core';
 
 const styles: any = (theme: Theme | any) => ({
     root: {
-        color: theme.palette.custom.white16,
+        backgroundColor: theme.palette.custom.black40,
+        padding: theme.spacing(1),
+        '&:hover': {
+            backgroundColor: theme.palette.custom.charcoal,
+            color: theme.palette.common.white,
+        },
     },
 
     // Size Variant
@@ -13,7 +18,7 @@ const styles: any = (theme: Theme | any) => ({
         fontSize: theme.typography.pxToRem(32),
     },
     small: {
-        fontSize: theme.typography.pxToRem(24),
+        fontSize: theme.typography.pxToRem(18),
     },
 });
 
