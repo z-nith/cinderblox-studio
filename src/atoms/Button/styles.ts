@@ -32,6 +32,9 @@ const styles: any = (theme: Theme | any) => ({
             backgroundColor: theme.palette.custom.greyDarker,
         },
     },
+    addRightPadding: {
+        paddingRight: theme.spacing(2),
+    },
 });
 
 export default makeStyles(styles);
