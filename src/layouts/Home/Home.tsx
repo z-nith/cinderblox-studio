@@ -2,8 +2,19 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import useStyles from './styles';
 import { Typography, MenuItem, useTheme } from '@material-ui/core';
-import { Button, SocialMediaLink, Link, TextField, ValuePicker } from 'atoms';
+import {
+    Button,
+    SocialMediaLink,
+    Link,
+    TextField,
+    ValuePicker,
+    Tooltip,
+    Avatar,
+    AppBar,
+    ScrollToTopButton,
+} from 'atoms';
 import { GitHub, ExternalLink } from 'react-feather';
+import CloudLarge from '../../../public/img/large_cloud.svg';
 
 const Home = (props: HomePropTypes) => {
     const classes = useStyles();
@@ -11,41 +22,26 @@ const Home = (props: HomePropTypes) => {
     const theme = useTheme();
 
     return (
-        <div className={classes.root}>
-            <Typography variant={'h1'}>Light theme</Typography>
-            <div
-                style={{
-                    maxWidth: '300px',
-                }}
-            >
-                <Button
-                    variant={'contained'}
-                    color={'primary'}
-                    onClick={() => {}}
-                    startIcon={<GitHub color="white" size={18} />}
+        <React.Fragment>
+            <AppBar />
+            <div className={classes.root}>
+                <div
+                    style={{
+                        paddingTop: '300px',
+                    }}
                 >
-                    Get Started
-                </Button>
-                <Button
-                    variant={'contained'}
-                    color={'secondary'}
-                    onClick={() => {}}
-                    startIcon={
-                        <ExternalLink color={theme.palette.text.primary} size={18} />
-                    }
-                >
-                    Learn More
-                </Button>
-                <SocialMediaLink
-                    variant={'github'}
-                    color={'dark'}
-                    href={'https://github.com/'}
-                />
-                <Link variant={'default-blue'} href={'/color-studio'}>
-                    Click here to go to app
-                </Link>
+                    <CloudLarge className={classes.testSvg} />
+                    <Typography variant={'h1'}>Light theme</Typography>
+                    <div
+                        style={{
+                            minHeight: '1400px',
+                            width: '100%',
+                        }}
+                    />
+                </div>
             </div>
-        </div>
+            <ScrollToTopButton {...props} />
+        </React.Fragment>
     );
 };
 
