@@ -18,6 +18,10 @@ const styles: any = (theme: Theme | any) => ({
     'naked-link': {
         textDecoration: 'underline',
     },
+    'appBar-link': {
+        color: theme.palette.common.white,
+        textDecoration: 'none',
+    },
 });
 
 export default makeStyles(styles);

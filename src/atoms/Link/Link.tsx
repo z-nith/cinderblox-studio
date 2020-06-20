@@ -13,11 +13,7 @@ const Link = (props: LinkPropTypes) => {
             if (external) {
                 return <a {...linkProps}>{children}</a>;
             }
-            return (
-                <BaseLink {...linkProps} className={classes.wrapperLink}>
-                    {children}
-                </BaseLink>
-            );
+            return <BaseLink {...linkProps}>{children}</BaseLink>;
         }
         return (
             <Typography
