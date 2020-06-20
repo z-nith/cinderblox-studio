@@ -38,8 +38,8 @@ const lightPalette = {
 
     text: {
         primary: 'rgba(4, 28, 41, 1)',
-        secondary: 'rgba(4, 28, 41, 0.56)',
-        disabled: ' rgba(4, 28, 41, 0.75)',
+        secondary: 'rgba(4, 28, 41, 0.75)',
+        disabled: ' rgba(4, 28, 41, 0.56)',
         hint: ' rgba(4, 28, 41, 0.75)',
         divider: '#DDE1E4',
     },
