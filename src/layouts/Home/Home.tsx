@@ -14,7 +14,7 @@ import {
     ScrollToTopButton,
 } from 'atoms';
 import { GitHub, ExternalLink } from 'react-feather';
-import CloudLarge from '../../../public/img/large_cloud.svg';
+//import CloudLarge from '../../../public/img/large_cloud.svg';
 
 const Home = (props: HomePropTypes) => {
     const classes = useStyles();
@@ -30,7 +30,7 @@ const Home = (props: HomePropTypes) => {
                         paddingTop: '300px',
                     }}
                 >
-                    <CloudLarge className={classes.testSvg} />
+                    {/* <CloudLarge className={classes.testSvg} /> */}
                     <Typography variant={'h1'}>Light theme</Typography>
                     <div
                         style={{
