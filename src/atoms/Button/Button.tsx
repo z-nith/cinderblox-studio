@@ -6,7 +6,7 @@ import clsx from 'clsx';
 //TODO: add pop up effect when nearing completion
 const Button = (props: ButtonPropTypes) => {
     const classes = useStyles();
-    const { paddingRight } = props;
+    const { usePopEffect, paddingRight, ...rest } = props;
 
     return (
         <div
@@ -22,7 +22,7 @@ const Button = (props: ButtonPropTypes) => {
                     containedSecondary: classes.containedSecondary,
                 }}
                 disableElevation
-                {...props}
+                {...rest}
             />
         </div>
     );
