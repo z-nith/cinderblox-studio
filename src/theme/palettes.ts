@@ -22,6 +22,7 @@ const basePalette = {
         white60: 'rgba(255, 255, 255, 0.60)',
         black75: 'rgba(0, 0, 0, 0.75)',
         black60: 'rgba(0, 0, 0, 0.60)',
+        black40: 'rgba(0, 0, 0, 0.40)',
         charcoal: '#121516',
         charcoalDark: '#0E1214',
         charcoalLight: '#181C1E',
