@@ -3,12 +3,13 @@ import { Theme, makeStyles } from '@material-ui/core';
 const styles: any = (theme: Theme | any) => ({
     root: {
         display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-
         height: '100vh',
-        weidth: '100vw',
-        backgroundColor: 'white',
+        width: '100vw',
+        backgroundColor: theme.palette.secondary.main,
+    },
+    testSvg: {
+        height: '100px',
+        width: 'auto',
     },
 });
 
