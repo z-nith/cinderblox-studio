@@ -1,9 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SocialMediaLink should render github without error 1`] = `
-<SocialMediaLinkWithTheme
-  href="https://google.com"
-  variant="github"
+exports[`Avatar should render large avatar without error 1`] = `
+<AvatarWithTheme
+  alt="Jesse Meza"
+  imgSize="large"
+  src="/img/author_avatar.jpg"
 >
   <ThemeProvider
     theme={
@@ -387,149 +388,53 @@ exports[`SocialMediaLink should render github without error 1`] = `
       }
     }
   >
-    <SocialMediaLink
-      color="light"
-      href="https://google.com"
-      iconSize="medium"
-      variant="github"
+    <Avatar
+      alt="Jesse Meza"
+      imgSize="large"
+      src="/img/author_avatar.jpg"
     >
-      <WithStyles(ForwardRef(IconButton))
-        classes={
-          Object {
-            "root": "makeStyles-root-1",
-          }
-        }
-        component="a"
-        href="https://google.com"
-        target="_blank"
+      <WithStyles(ForwardRef(Avatar))
+        alt="Jesse Meza"
+        className="makeStyles-large-3"
+        src="/img/author_avatar.jpg"
       >
-        <ForwardRef(IconButton)
+        <ForwardRef(Avatar)
+          alt="Jesse Meza"
+          className="makeStyles-large-3"
           classes={
             Object {
-              "colorInherit": "MuiIconButton-colorInherit",
-              "colorPrimary": "MuiIconButton-colorPrimary",
-              "colorSecondary": "MuiIconButton-colorSecondary",
-              "disabled": "Mui-disabled",
-              "edgeEnd": "MuiIconButton-edgeEnd",
-              "edgeStart": "MuiIconButton-edgeStart",
-              "label": "MuiIconButton-label",
-              "root": "MuiIconButton-root makeStyles-root-1",
-              "sizeSmall": "MuiIconButton-sizeSmall",
+              "circle": "MuiAvatar-circle",
+              "colorDefault": "MuiAvatar-colorDefault",
+              "fallback": "MuiAvatar-fallback",
+              "img": "MuiAvatar-img",
+              "root": "MuiAvatar-root",
+              "rounded": "MuiAvatar-rounded",
+              "square": "MuiAvatar-square",
             }
           }
-          component="a"
-          href="https://google.com"
-          target="_blank"
+          src="/img/author_avatar.jpg"
         >
-          <WithStyles(ForwardRef(ButtonBase))
-            centerRipple={true}
-            className="MuiIconButton-root makeStyles-root-1"
-            component="a"
-            disabled={false}
-            focusRipple={true}
-            href="https://google.com"
-            target="_blank"
+          <div
+            className="MuiAvatar-root MuiAvatar-circle makeStyles-large-3"
           >
-            <ForwardRef(ButtonBase)
-              centerRipple={true}
-              className="MuiIconButton-root makeStyles-root-1"
-              classes={
-                Object {
-                  "disabled": "Mui-disabled",
-                  "focusVisible": "Mui-focusVisible",
-                  "root": "MuiButtonBase-root",
-                }
-              }
-              component="a"
-              disabled={false}
-              focusRipple={true}
-              href="https://google.com"
-              target="_blank"
-            >
-              <a
-                aria-disabled={false}
-                className="MuiButtonBase-root MuiIconButton-root makeStyles-root-1"
-                href="https://google.com"
-                onBlur={[Function]}
-                onDragLeave={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                tabIndex={0}
-                target="_blank"
-              >
-                <span
-                  className="MuiIconButton-label"
-                >
-                  <GitHub
-                    color="rgba(255, 255, 255, 0.75)"
-                    size={18}
-                  >
-                    <svg
-                      fill="none"
-                      height={18}
-                      stroke="rgba(255, 255, 255, 0.75)"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width={18}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                      />
-                    </svg>
-                  </GitHub>
-                </span>
-                <WithStyles(memo)
-                  center={true}
-                >
-                  <ForwardRef(TouchRipple)
-                    center={true}
-                    classes={
-                      Object {
-                        "child": "MuiTouchRipple-child",
-                        "childLeaving": "MuiTouchRipple-childLeaving",
-                        "childPulsate": "MuiTouchRipple-childPulsate",
-                        "ripple": "MuiTouchRipple-ripple",
-                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                        "rippleVisible": "MuiTouchRipple-rippleVisible",
-                        "root": "MuiTouchRipple-root",
-                      }
-                    }
-                  >
-                    <span
-                      className="MuiTouchRipple-root"
-                    >
-                      <TransitionGroup
-                        childFactory={[Function]}
-                        component={null}
-                        exit={true}
-                      />
-                    </span>
-                  </ForwardRef(TouchRipple)>
-                </WithStyles(memo)>
-              </a>
-            </ForwardRef(ButtonBase)>
-          </WithStyles(ForwardRef(ButtonBase))>
-        </ForwardRef(IconButton)>
-      </WithStyles(ForwardRef(IconButton))>
-    </SocialMediaLink>
+            <img
+              alt="Jesse Meza"
+              className="MuiAvatar-img"
+              src="/img/author_avatar.jpg"
+            />
+          </div>
+        </ForwardRef(Avatar)>
+      </WithStyles(ForwardRef(Avatar))>
+    </Avatar>
   </ThemeProvider>
-</SocialMediaLinkWithTheme>
+</AvatarWithTheme>
 `;
 
-exports[`SocialMediaLink should render linkedin without error 1`] = `
-<SocialMediaLinkWithTheme
-  href="https://google.com"
-  variant="linkedin"
+exports[`Avatar should render medium avatar without error 1`] = `
+<AvatarWithTheme
+  alt="Jesse Meza"
+  imgSize="medium"
+  src="/img/author_avatar.jpg"
 >
   <ThemeProvider
     theme={
@@ -913,160 +818,53 @@ exports[`SocialMediaLink should render linkedin without error 1`] = `
       }
     }
   >
-    <SocialMediaLink
-      color="light"
-      href="https://google.com"
-      iconSize="medium"
-      variant="linkedin"
+    <Avatar
+      alt="Jesse Meza"
+      imgSize="medium"
+      src="/img/author_avatar.jpg"
     >
-      <WithStyles(ForwardRef(IconButton))
-        classes={
-          Object {
-            "root": "makeStyles-root-1",
-          }
-        }
-        component="a"
-        href="https://google.com"
-        target="_blank"
+      <WithStyles(ForwardRef(Avatar))
+        alt="Jesse Meza"
+        className="makeStyles-medium-2"
+        src="/img/author_avatar.jpg"
       >
-        <ForwardRef(IconButton)
+        <ForwardRef(Avatar)
+          alt="Jesse Meza"
+          className="makeStyles-medium-2"
           classes={
             Object {
-              "colorInherit": "MuiIconButton-colorInherit",
-              "colorPrimary": "MuiIconButton-colorPrimary",
-              "colorSecondary": "MuiIconButton-colorSecondary",
-              "disabled": "Mui-disabled",
-              "edgeEnd": "MuiIconButton-edgeEnd",
-              "edgeStart": "MuiIconButton-edgeStart",
-              "label": "MuiIconButton-label",
-              "root": "MuiIconButton-root makeStyles-root-1",
-              "sizeSmall": "MuiIconButton-sizeSmall",
+              "circle": "MuiAvatar-circle",
+              "colorDefault": "MuiAvatar-colorDefault",
+              "fallback": "MuiAvatar-fallback",
+              "img": "MuiAvatar-img",
+              "root": "MuiAvatar-root",
+              "rounded": "MuiAvatar-rounded",
+              "square": "MuiAvatar-square",
             }
           }
-          component="a"
-          href="https://google.com"
-          target="_blank"
+          src="/img/author_avatar.jpg"
         >
-          <WithStyles(ForwardRef(ButtonBase))
-            centerRipple={true}
-            className="MuiIconButton-root makeStyles-root-1"
-            component="a"
-            disabled={false}
-            focusRipple={true}
-            href="https://google.com"
-            target="_blank"
+          <div
+            className="MuiAvatar-root MuiAvatar-circle makeStyles-medium-2"
           >
-            <ForwardRef(ButtonBase)
-              centerRipple={true}
-              className="MuiIconButton-root makeStyles-root-1"
-              classes={
-                Object {
-                  "disabled": "Mui-disabled",
-                  "focusVisible": "Mui-focusVisible",
-                  "root": "MuiButtonBase-root",
-                }
-              }
-              component="a"
-              disabled={false}
-              focusRipple={true}
-              href="https://google.com"
-              target="_blank"
-            >
-              <a
-                aria-disabled={false}
-                className="MuiButtonBase-root MuiIconButton-root makeStyles-root-1"
-                href="https://google.com"
-                onBlur={[Function]}
-                onDragLeave={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                tabIndex={0}
-                target="_blank"
-              >
-                <span
-                  className="MuiIconButton-label"
-                >
-                  <Linkedin
-                    color="rgba(255, 255, 255, 0.75)"
-                    size={18}
-                  >
-                    <svg
-                      fill="none"
-                      height={18}
-                      stroke="rgba(255, 255, 255, 0.75)"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width={18}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-                      />
-                      <rect
-                        height="12"
-                        width="4"
-                        x="2"
-                        y="9"
-                      />
-                      <circle
-                        cx="4"
-                        cy="4"
-                        r="2"
-                      />
-                    </svg>
-                  </Linkedin>
-                </span>
-                <WithStyles(memo)
-                  center={true}
-                >
-                  <ForwardRef(TouchRipple)
-                    center={true}
-                    classes={
-                      Object {
-                        "child": "MuiTouchRipple-child",
-                        "childLeaving": "MuiTouchRipple-childLeaving",
-                        "childPulsate": "MuiTouchRipple-childPulsate",
-                        "ripple": "MuiTouchRipple-ripple",
-                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                        "rippleVisible": "MuiTouchRipple-rippleVisible",
-                        "root": "MuiTouchRipple-root",
-                      }
-                    }
-                  >
-                    <span
-                      className="MuiTouchRipple-root"
-                    >
-                      <TransitionGroup
-                        childFactory={[Function]}
-                        component={null}
-                        exit={true}
-                      />
-                    </span>
-                  </ForwardRef(TouchRipple)>
-                </WithStyles(memo)>
-              </a>
-            </ForwardRef(ButtonBase)>
-          </WithStyles(ForwardRef(ButtonBase))>
-        </ForwardRef(IconButton)>
-      </WithStyles(ForwardRef(IconButton))>
-    </SocialMediaLink>
+            <img
+              alt="Jesse Meza"
+              className="MuiAvatar-img"
+              src="/img/author_avatar.jpg"
+            />
+          </div>
+        </ForwardRef(Avatar)>
+      </WithStyles(ForwardRef(Avatar))>
+    </Avatar>
   </ThemeProvider>
-</SocialMediaLinkWithTheme>
+</AvatarWithTheme>
 `;
 
-exports[`SocialMediaLink should render website without error 1`] = `
-<SocialMediaLinkWithTheme
-  href="https://google.com"
-  variant="website"
+exports[`Avatar should render small avatar without error 1`] = `
+<AvatarWithTheme
+  alt="Jesse Meza"
+  imgSize="small"
+  src="/img/author_avatar.jpg"
 >
   <ThemeProvider
     theme={
@@ -1450,144 +1248,44 @@ exports[`SocialMediaLink should render website without error 1`] = `
       }
     }
   >
-    <SocialMediaLink
-      color="light"
-      href="https://google.com"
-      iconSize="medium"
-      variant="website"
+    <Avatar
+      alt="Jesse Meza"
+      imgSize="small"
+      src="/img/author_avatar.jpg"
     >
-      <WithStyles(ForwardRef(IconButton))
-        classes={
-          Object {
-            "root": "makeStyles-root-1",
-          }
-        }
-        component="a"
-        href="https://google.com"
-        target="_blank"
+      <WithStyles(ForwardRef(Avatar))
+        alt="Jesse Meza"
+        className="makeStyles-small-1"
+        src="/img/author_avatar.jpg"
       >
-        <ForwardRef(IconButton)
+        <ForwardRef(Avatar)
+          alt="Jesse Meza"
+          className="makeStyles-small-1"
           classes={
             Object {
-              "colorInherit": "MuiIconButton-colorInherit",
-              "colorPrimary": "MuiIconButton-colorPrimary",
-              "colorSecondary": "MuiIconButton-colorSecondary",
-              "disabled": "Mui-disabled",
-              "edgeEnd": "MuiIconButton-edgeEnd",
-              "edgeStart": "MuiIconButton-edgeStart",
-              "label": "MuiIconButton-label",
-              "root": "MuiIconButton-root makeStyles-root-1",
-              "sizeSmall": "MuiIconButton-sizeSmall",
+              "circle": "MuiAvatar-circle",
+              "colorDefault": "MuiAvatar-colorDefault",
+              "fallback": "MuiAvatar-fallback",
+              "img": "MuiAvatar-img",
+              "root": "MuiAvatar-root",
+              "rounded": "MuiAvatar-rounded",
+              "square": "MuiAvatar-square",
             }
           }
-          component="a"
-          href="https://google.com"
-          target="_blank"
+          src="/img/author_avatar.jpg"
         >
-          <WithStyles(ForwardRef(ButtonBase))
-            centerRipple={true}
-            className="MuiIconButton-root makeStyles-root-1"
-            component="a"
-            disabled={false}
-            focusRipple={true}
-            href="https://google.com"
-            target="_blank"
+          <div
+            className="MuiAvatar-root MuiAvatar-circle makeStyles-small-1"
           >
-            <ForwardRef(ButtonBase)
-              centerRipple={true}
-              className="MuiIconButton-root makeStyles-root-1"
-              classes={
-                Object {
-                  "disabled": "Mui-disabled",
-                  "focusVisible": "Mui-focusVisible",
-                  "root": "MuiButtonBase-root",
-                }
-              }
-              component="a"
-              disabled={false}
-              focusRipple={true}
-              href="https://google.com"
-              target="_blank"
-            >
-              <a
-                aria-disabled={false}
-                className="MuiButtonBase-root MuiIconButton-root makeStyles-root-1"
-                href="https://google.com"
-                onBlur={[Function]}
-                onDragLeave={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                tabIndex={0}
-                target="_blank"
-              >
-                <span
-                  className="MuiIconButton-label"
-                >
-                  <Link
-                    color="rgba(255, 255, 255, 0.75)"
-                    size={18}
-                  >
-                    <svg
-                      fill="none"
-                      height={18}
-                      stroke="rgba(255, 255, 255, 0.75)"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width={18}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
-                      />
-                      <path
-                        d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
-                      />
-                    </svg>
-                  </Link>
-                </span>
-                <WithStyles(memo)
-                  center={true}
-                >
-                  <ForwardRef(TouchRipple)
-                    center={true}
-                    classes={
-                      Object {
-                        "child": "MuiTouchRipple-child",
-                        "childLeaving": "MuiTouchRipple-childLeaving",
-                        "childPulsate": "MuiTouchRipple-childPulsate",
-                        "ripple": "MuiTouchRipple-ripple",
-                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                        "rippleVisible": "MuiTouchRipple-rippleVisible",
-                        "root": "MuiTouchRipple-root",
-                      }
-                    }
-                  >
-                    <span
-                      className="MuiTouchRipple-root"
-                    >
-                      <TransitionGroup
-                        childFactory={[Function]}
-                        component={null}
-                        exit={true}
-                      />
-                    </span>
-                  </ForwardRef(TouchRipple)>
-                </WithStyles(memo)>
-              </a>
-            </ForwardRef(ButtonBase)>
-          </WithStyles(ForwardRef(ButtonBase))>
-        </ForwardRef(IconButton)>
-      </WithStyles(ForwardRef(IconButton))>
-    </SocialMediaLink>
+            <img
+              alt="Jesse Meza"
+              className="MuiAvatar-img"
+              src="/img/author_avatar.jpg"
+            />
+          </div>
+        </ForwardRef(Avatar)>
+      </WithStyles(ForwardRef(Avatar))>
+    </Avatar>
   </ThemeProvider>
-</SocialMediaLinkWithTheme>
+</AvatarWithTheme>
 `;

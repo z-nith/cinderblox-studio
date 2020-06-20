@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CopyrightNotice should render without error 1`] = `
-<CopyrightNoticeWithTheme>
+exports[`ScrollToTopButton should render without error 1`] = `
+<ScrollToTopButtonWithTheme>
   <ThemeProvider
     theme={
       Object {
@@ -384,55 +384,168 @@ exports[`CopyrightNotice should render without error 1`] = `
       }
     }
   >
-    <CopyrightNotice>
-      <WithStyles(ForwardRef(Typography))
-        className="makeStyles-copyrightText-1"
-      >
-        <ForwardRef(Typography)
-          className="makeStyles-copyrightText-1"
-          classes={
-            Object {
-              "alignCenter": "MuiTypography-alignCenter",
-              "alignJustify": "MuiTypography-alignJustify",
-              "alignLeft": "MuiTypography-alignLeft",
-              "alignRight": "MuiTypography-alignRight",
-              "body1": "MuiTypography-body1",
-              "body2": "MuiTypography-body2",
-              "button": "MuiTypography-button",
-              "caption": "MuiTypography-caption",
-              "colorError": "MuiTypography-colorError",
-              "colorInherit": "MuiTypography-colorInherit",
-              "colorPrimary": "MuiTypography-colorPrimary",
-              "colorSecondary": "MuiTypography-colorSecondary",
-              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-              "displayBlock": "MuiTypography-displayBlock",
-              "displayInline": "MuiTypography-displayInline",
-              "gutterBottom": "MuiTypography-gutterBottom",
-              "h1": "MuiTypography-h1",
-              "h2": "MuiTypography-h2",
-              "h3": "MuiTypography-h3",
-              "h4": "MuiTypography-h4",
-              "h5": "MuiTypography-h5",
-              "h6": "MuiTypography-h6",
-              "noWrap": "MuiTypography-noWrap",
-              "overline": "MuiTypography-overline",
-              "paragraph": "MuiTypography-paragraph",
-              "root": "MuiTypography-root",
-              "srOnly": "MuiTypography-srOnly",
-              "subtitle1": "MuiTypography-subtitle1",
-              "subtitle2": "MuiTypography-subtitle2",
-            }
-          }
+    <ScrollToTopButton>
+      <ScrollTop>
+        <ForwardRef(Zoom)
+          in={false}
         >
-          <p
-            className="MuiTypography-root makeStyles-copyrightText-1 MuiTypography-body1"
+          <Transition
+            appear={true}
+            enter={true}
+            exit={true}
+            in={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={
+              Object {
+                "enter": 225,
+                "exit": 195,
+              }
+            }
+            unmountOnExit={false}
           >
-            Copyright © Jenasnelling.com 2020. All rights reserved.
-          </p>
-        </ForwardRef(Typography)>
-      </WithStyles(ForwardRef(Typography))>
-    </CopyrightNotice>
+            <div
+              className="makeStyles-root-1"
+              onClick={[Function]}
+              role="presentation"
+              style={
+                Object {
+                  "transform": "scale(0)",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Fab))
+                aria-label="scroll back to top"
+                color="secondary"
+                size="large"
+              >
+                <ForwardRef(Fab)
+                  aria-label="scroll back to top"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiFab-colorInherit",
+                      "disabled": "Mui-disabled",
+                      "extended": "MuiFab-extended",
+                      "focusVisible": "Mui-focusVisible",
+                      "label": "MuiFab-label",
+                      "primary": "MuiFab-primary",
+                      "root": "MuiFab-root",
+                      "secondary": "MuiFab-secondary",
+                      "sizeMedium": "MuiFab-sizeMedium",
+                      "sizeSmall": "MuiFab-sizeSmall",
+                    }
+                  }
+                  color="secondary"
+                  size="large"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    aria-label="scroll back to top"
+                    className="MuiFab-root MuiFab-secondary"
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                  >
+                    <ForwardRef(ButtonBase)
+                      aria-label="scroll back to top"
+                      className="MuiFab-root MuiFab-secondary"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                    >
+                      <button
+                        aria-label="scroll back to top"
+                        className="MuiButtonBase-root MuiFab-root MuiFab-secondary"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={0}
+                        type="button"
+                      >
+                        <span
+                          className="MuiFab-label"
+                        >
+                          <ChevronUp
+                            color="white"
+                          >
+                            <svg
+                              fill="none"
+                              height={24}
+                              stroke="white"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              viewBox="0 0 24 24"
+                              width={24}
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <polyline
+                                points="18 15 12 9 6 15"
+                              />
+                            </svg>
+                          </ChevronUp>
+                        </span>
+                        <WithStyles(memo)
+                          center={false}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={false}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Fab)>
+              </WithStyles(ForwardRef(Fab))>
+            </div>
+          </Transition>
+        </ForwardRef(Zoom)>
+      </ScrollTop>
+    </ScrollToTopButton>
   </ThemeProvider>
-</CopyrightNoticeWithTheme>
+</ScrollToTopButtonWithTheme>
 `;
