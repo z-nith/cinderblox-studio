@@ -13,7 +13,11 @@ const Link = (props: LinkPropTypes) => {
             if (external) {
                 return <a {...linkProps}>{children}</a>;
             }
-            return <BaseLink {...linkProps}>{children}</BaseLink>;
+            return (
+                <BaseLink {...linkProps} className={classes.wrapperLink}>
+                    {children}
+                </BaseLink>
+            );
         }
         return (
             <Typography
@@ -36,9 +40,16 @@ Link.defaultProps = {
 };
 
 export interface LinkPropTypes extends BaseLinkPropTypes {
-    variant: 'wrapper' | 'default-primary' | 'default-blue' | 'footer' | 'naked';
+    variant:
+        | 'wrapper'
+        | 'default-primary'
+        | 'default-blue'
+        | 'footer'
+        | 'appBar'
+        | 'naked';
     external?: boolean;
     target?: string;
+    underline?: string;
 }
 
 export default Link;
