@@ -55,6 +55,7 @@
         "@types/react-dom": "@latest",
         "@types/validator": "@latest",
         "@types/yup": "@latest",
+        "babel-plugin-inline-react-svg": "^1.1.1",
         "enzyme": "@latest",
         "enzyme-adapter-react-16": "^@latest",
         "enzyme-to-json": "@latest",
