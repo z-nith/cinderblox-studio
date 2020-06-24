@@ -1,39 +1,40 @@
 import { Theme, makeStyles } from '@material-ui/core';
 
 const styles: any = (theme: Theme | any) => ({
+    root: {
+        height: '56px',
+        borderRadius: '28px',
+        padding: theme.spacing(1, 3),
+    },
     buttonLabel: {
         fontFamily: 'Montserrat',
         fontWeight: 600,
         textTransform: 'none',
     },
     containedPrimary: {
-        backgroundColor: theme.palette.primary.main,
-        height: '56px',
-        borderRadius: '28px',
-        padding: theme.spacing(1, 3),
+        backgroundColor: theme.palette.primary.light,
         color: theme.palette.common.white,
-        //boxShadow: '0px 10px  rgba(0,0,0,0.80)',
-        //transform: 'translate(0px, -4px)',
-        // '&:active': {
-        //     transform: 'translate(0px, 10px)',
-        // },
         '&:hover': {
             backgroundColor: theme.palette.primary.dark,
-            //boxShadow: '0px 10px rgba(0,0,0,0.80)',
         },
     },
     containedSecondary: {
-        backgroundColor: theme.palette.custom.greyDark,
-        height: '56px',
-        borderRadius: '28px',
-        padding: theme.spacing(1, 3),
         color: theme.palette.text.primary,
+        backgroundColor: theme.palette.custom.greyDark,
         '&:hover': {
             backgroundColor: theme.palette.custom.greyDarker,
         },
     },
     addRightPadding: {
         paddingRight: theme.spacing(2),
+    },
+
+    // glow effect for dark mode
+    addPrimaryGlow: {
+        boxShadow: '0px 2px 16px 0px rgba(217,48,79,0.50)',
+    },
+    addSecondaryGlow: {
+        boxShadow: '0px 2px 16px 0px rgba(44,146,205,0.50)',
     },
 });
 

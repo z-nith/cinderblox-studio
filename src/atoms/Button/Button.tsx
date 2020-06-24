@@ -1,12 +1,11 @@
-import React from 'react';
-import useStyles from './styles';
 import { Button as MuiButton, ButtonProps } from '@material-ui/core';
 import clsx from 'clsx';
+import React from 'react';
+import useStyles from './styles';
 
-//TODO: add pop up effect when nearing completion
 const Button = (props: ButtonPropTypes) => {
     const classes = useStyles();
-    const { usePopEffect, paddingRight, ...rest } = props;
+    const { paddingRight, addGlow, color, ...rest } = props;
 
     return (
         <div
@@ -16,12 +15,17 @@ const Button = (props: ButtonPropTypes) => {
         >
             <MuiButton
                 classes={{
-                    root: classes.root,
+                    root: clsx(classes.root, {
+                        [classes.addPrimaryGlow]: addGlow && color === 'primary',
+                        [classes.addSecondaryGlow]: addGlow && color === 'secondary',
+                    }),
                     label: classes.buttonLabel,
                     containedPrimary: classes.containedPrimary,
                     containedSecondary: classes.containedSecondary,
                 }}
-                disableElevation
+                color={color}
+                disableRipple
+                //disableElevation
                 {...rest}
             />
         </div>
@@ -29,12 +33,12 @@ const Button = (props: ButtonPropTypes) => {
 };
 
 Button.defaultProps = {
-    usePopEffect: false,
+    addGlow: false,
     paddingRight: false,
 };
 
 export type ButtonPropTypes = ButtonProps & {
-    usePopEffect: boolean;
+    addGlow?: boolean;
     paddingRight?: boolean;
 };
 
