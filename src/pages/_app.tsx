@@ -5,6 +5,7 @@ import { NextComponentType, NextPageContext } from 'next';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import theme from 'theme';
+import './globals.css';
 
 export default function MyApp(props: any) {
     const { Component, pageProps } = props;
