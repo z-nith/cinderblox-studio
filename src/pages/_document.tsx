@@ -15,6 +15,19 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
                         rel="stylesheet"
                     />
+                    <link
+                        rel="icon"
+                        type="image/png"
+                        href="/img/favicon-16x16.png"
+                        sizes="16x16"
+                    />
+                    <link
+                        rel="icon"
+                        type="image/png"
+                        href="/img/favicon-32x32.png"
+                        sizes="32x32"
+                    />
+                    <link rel="icon" type="image/png" href="/img/favicon-96x96.png" />
                 </Head>
                 <body>
                     <Main />
