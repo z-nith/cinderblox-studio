@@ -7,17 +7,13 @@ const Typography = (props: TypographyProps) => {
 
     return (
         <MuiTypography
-            {...props}
             classes={{
                 colorTextPrimary: classes.colorTextPrimary,
                 colorTextSecondary: classes.colorTextSecondary,
             }}
+            {...props}
         />
     );
-};
-
-Typography.defaultProps = {
-    color: 'textPrimary',
 };
 
 export default Typography;
