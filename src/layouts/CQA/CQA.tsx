@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import clsx from 'clsx';
-import useStyles from './styles';
-import { MenuItem, ThemeProvider, useTheme } from '@material-ui/core';
-import { Button, SocialMediaLink, Link, Typography, ValuePicker } from 'atoms';
+import { useTheme } from '@material-ui/core';
+import { Button, Link, SocialMediaLink, Typography, ValuePicker } from 'atoms';
 import { GitHub } from 'react-feather';
-import { alternateDarkTheme } from 'theme';
+import useStyles from './styles';
 
 const CQA = (props: CQAPropTypes) => {
     const classes = useStyles();
@@ -15,11 +13,11 @@ const CQA = (props: CQAPropTypes) => {
 
     const theme = useTheme();
 
-    console.log(theme);
-
     return (
         <div className={classes.root}>
-            <Typography variant={'h1'}>Dark Theme hello world</Typography>
+            <Typography variant={'h1'} color={'textPrimary'}>
+                Dark Theme hello world
+            </Typography>
             <Typography variant={'body1'} color={'textSecondary'}>
                 Dark Theme hello world
             </Typography>
