@@ -11,7 +11,11 @@ const Link = (props: LinkPropTypes) => {
     const getLinkVariant = () => {
         if (variant === 'wrapper') {
             if (external) {
-                return <a {...linkProps}>{children}</a>;
+                return (
+                    <a {...linkProps} className={classes['wrapping-link']}>
+                        {children}
+                    </a>
+                );
             }
             return <BaseLink {...linkProps}>{children}</BaseLink>;
         }

@@ -22,6 +22,11 @@ const styles: any = (theme: Theme | any) => ({
         color: theme.palette.common.white,
         textDecoration: 'none',
     },
+    'wrapping-link': {
+        textDecoration: 'none',
+        margin: 0,
+        lineHeight: 'normal',
+    },
 });
 
 export default makeStyles(styles);
