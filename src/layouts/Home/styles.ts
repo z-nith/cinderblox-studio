@@ -8,8 +8,14 @@ const styles: any = (theme: Theme | any) => ({
         backgroundColor: theme.palette.secondary.main,
     },
     testSvg: {
-        height: '100px',
-        width: 'auto',
+        height: 'auto',
+        width: '100%',
+    },
+    headerText: {
+        color: theme.palette.common.white,
+    },
+    addMarginBottom: {
+        paddingBottom: theme.spacing(3),
     },
 });
 

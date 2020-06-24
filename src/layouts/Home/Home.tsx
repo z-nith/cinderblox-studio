@@ -1,20 +1,15 @@
-import {
-    List,
-    ListItem,
-    ListItemAvatar,
-    ListItemText,
-    useTheme,
-} from '@material-ui/core';
-import { AppBar, Button, ListItemCounter, ScrollToTopButton, Typography } from 'atoms';
 import React from 'react';
+import { List, ListItem, ListItemAvatar, ListItemText } from '@material-ui/core';
+import { AppBar, Button, ListItemCounter, ScrollToTopButton, Typography } from 'atoms';
 import { ExternalLink, GitHub } from 'react-feather';
-import useStyles from './styles';
 //import CloudLarge from '../../../public/img/large_cloud.svg';
+import AppFrame from '../../../public/img/AppFrame.svg';
+import useStyles from './styles';
+import ContentMarginContianer from 'atoms/ContentMarginContainer';
+import { Nav } from 'organisms';
 
 const Home = (props: HomePropTypes) => {
     const classes = useStyles();
-
-    const theme = useTheme();
 
     const renderHowItWorks = () => {
         return (
@@ -84,6 +79,7 @@ const Home = (props: HomePropTypes) => {
                         onClick={() => {}}
                         startIcon={<GitHub color="white" size={18} />}
                         paddingRight
+                        addGlow
                     >
                         Github
                     </Button>
@@ -102,25 +98,96 @@ const Home = (props: HomePropTypes) => {
 
     return (
         <React.Fragment>
-            <AppBar />
+            <Nav />
             <div className={classes.root}>
                 <div
                     style={{
-                        paddingTop: '300px',
+                        //paddingTop: '300px',
+                        width: '100%',
+
+                        display: 'flex',
+                        flexDirection: 'row',
+                        alignItems: 'center',
+                        justifyContent: 'center',
                     }}
                 >
-                    {/* <CloudLarge className={classes.testSvg} /> */}
-                    <Typography variant={'h1'}>Light theme</Typography>
-                    <div
-                        style={{
-                            minHeight: '1400px',
-                            width: '100%',
-                        }}
-                    ></div>
+                    <div>
+                        <div
+                            style={{
+                                width: '100%',
+
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                            }}
+                        >
+                            {/* <CloudLarge className={classes.testSvg} /> */}
+
+                            <Typography
+                                align={'center'}
+                                variant={'h1'}
+                                className={classes.headerText}
+                            >
+                                Inspiration in the cloud
+                            </Typography>
+                            <Typography
+                                align={'center'}
+                                variant={'body1'}
+                                className={classes.headerText}
+                            >
+                                Build beautiful color palettes for your next project using
+                                images
+                            </Typography>
+                        </div>
+
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                paddingTop: '32px',
+                            }}
+                        >
+                            <Button
+                                variant={'contained'}
+                                color={'primary'}
+                                onClick={() => {}}
+                                paddingRight
+                            >
+                                Get Started
+                            </Button>
+                            <Button
+                                variant={'contained'}
+                                color={'secondary'}
+                                onClick={() => {}}
+                                startIcon={<ExternalLink color="black" size={18} />}
+                            >
+                                Learn more
+                            </Button>
+                        </div>
+                        <AppFrame className={classes.testSvg} />
+                    </div>
                 </div>
             </div>
-            {renderHowItWorks()}
-            <ScrollToTopButton {...props} />
+
+            <ContentMarginContianer className={classes.addMarginBottom}>
+                <div
+                    style={{
+                        minHeight: '1400px',
+                        width: '100%',
+                    }}
+                ></div>
+                <Typography variant={'h4'} color={'textPrimary'}>
+                    This is some primary text
+                </Typography>
+                <Typography variant={'body1'} color={'textSecondary'}>
+                    This is some secondary text
+                </Typography>
+                {renderHowItWorks()}
+                <ScrollToTopButton {...props} />
+            </ContentMarginContianer>
         </React.Fragment>
     );
 };
