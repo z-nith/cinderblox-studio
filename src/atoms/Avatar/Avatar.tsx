@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar } from '@material-ui/core';
+import { Avatar, AvatarProps } from '@material-ui/core';
 import { Tooltip } from 'atoms';
 import { size } from 'types/size';
 import useStyles from './styles';
@@ -18,7 +18,7 @@ const AuthorAvatar = (props: AvatarPropTypes) => {
     );
 };
 
-export type AvatarPropTypes = {
+export type AvatarPropTypes = AvatarProps & {
     imgSize: size;
     toolTipText?: string;
 };
