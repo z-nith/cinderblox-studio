@@ -18,6 +18,7 @@ describe(`Avatar`, () => {
                 src={'/img/author_avatar.jpg'}
                 imgSize={'small'}
                 alt={'Jesse Meza'}
+                toolTipText={'Author'}
             />,
         );
         expect(wrapper).toMatchSnapshot();
@@ -29,6 +30,7 @@ describe(`Avatar`, () => {
                 src={'/img/author_avatar.jpg'}
                 imgSize={'medium'}
                 alt={'Jesse Meza'}
+                toolTipText={'Author'}
             />,
         );
         expect(wrapper).toMatchSnapshot();
@@ -40,6 +42,7 @@ describe(`Avatar`, () => {
                 src={'/img/author_avatar.jpg'}
                 imgSize={'large'}
                 alt={'Jesse Meza'}
+                toolTipText={'Author'}
             />,
         );
         expect(wrapper).toMatchSnapshot();

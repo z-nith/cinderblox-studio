@@ -148,7 +148,7 @@ exports[`Link should render card link variant without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -164,9 +164,9 @@ exports[`Link should render card link variant without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -747,7 +747,7 @@ exports[`Link should render footer link variant without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -763,9 +763,9 @@ exports[`Link should render footer link variant without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -1200,7 +1200,7 @@ exports[`Link should render naked link variant without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -1216,9 +1216,9 @@ exports[`Link should render naked link variant without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -1656,7 +1656,7 @@ exports[`Link should render wrapper external link variant without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -1672,9 +1672,9 @@ exports[`Link should render wrapper external link variant without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -1902,6 +1902,7 @@ exports[`Link should render wrapper external link variant without error 1`] = `
       variant="wrapper"
     >
       <a
+        className="makeStyles-wrapping-link-6"
         href="https://google.com"
       >
         <div
@@ -2069,7 +2070,7 @@ exports[`Link should render wrapper link variant without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -2085,9 +2086,9 @@ exports[`Link should render wrapper link variant without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },

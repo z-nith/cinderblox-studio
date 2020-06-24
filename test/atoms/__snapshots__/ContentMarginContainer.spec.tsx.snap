@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ScrollToTopButton should render without error 1`] = `
-<ScrollToTopButtonWithTheme>
+exports[`ContentMarginContainer should render without error 1`] = `
+<ContentMarginContainerWithTheme>
   <ThemeProvider
     theme={
       Object {
@@ -384,168 +384,13 @@ exports[`ScrollToTopButton should render without error 1`] = `
       }
     }
   >
-    <ScrollToTopButton>
-      <ScrollTop>
-        <ForwardRef(Zoom)
-          in={false}
-        >
-          <Transition
-            appear={true}
-            enter={true}
-            exit={true}
-            in={false}
-            mountOnEnter={false}
-            onEnter={[Function]}
-            onEntered={[Function]}
-            onEntering={[Function]}
-            onExit={[Function]}
-            onExited={[Function]}
-            onExiting={[Function]}
-            timeout={
-              Object {
-                "enter": 225,
-                "exit": 195,
-              }
-            }
-            unmountOnExit={false}
-          >
-            <div
-              className="makeStyles-root-1"
-              onClick={[Function]}
-              role="presentation"
-              style={
-                Object {
-                  "transform": "scale(0)",
-                  "visibility": "hidden",
-                }
-              }
-            >
-              <WithStyles(ForwardRef(Fab))
-                aria-label="scroll back to top"
-                color="secondary"
-                size="large"
-              >
-                <ForwardRef(Fab)
-                  aria-label="scroll back to top"
-                  classes={
-                    Object {
-                      "colorInherit": "MuiFab-colorInherit",
-                      "disabled": "Mui-disabled",
-                      "extended": "MuiFab-extended",
-                      "focusVisible": "Mui-focusVisible",
-                      "label": "MuiFab-label",
-                      "primary": "MuiFab-primary",
-                      "root": "MuiFab-root",
-                      "secondary": "MuiFab-secondary",
-                      "sizeMedium": "MuiFab-sizeMedium",
-                      "sizeSmall": "MuiFab-sizeSmall",
-                    }
-                  }
-                  color="secondary"
-                  size="large"
-                >
-                  <WithStyles(ForwardRef(ButtonBase))
-                    aria-label="scroll back to top"
-                    className="MuiFab-root MuiFab-secondary"
-                    component="button"
-                    disabled={false}
-                    focusRipple={true}
-                    focusVisibleClassName="Mui-focusVisible"
-                  >
-                    <ForwardRef(ButtonBase)
-                      aria-label="scroll back to top"
-                      className="MuiFab-root MuiFab-secondary"
-                      classes={
-                        Object {
-                          "disabled": "Mui-disabled",
-                          "focusVisible": "Mui-focusVisible",
-                          "root": "MuiButtonBase-root",
-                        }
-                      }
-                      component="button"
-                      disabled={false}
-                      focusRipple={true}
-                      focusVisibleClassName="Mui-focusVisible"
-                    >
-                      <button
-                        aria-label="scroll back to top"
-                        className="MuiButtonBase-root MuiFab-root MuiFab-secondary"
-                        disabled={false}
-                        onBlur={[Function]}
-                        onDragLeave={[Function]}
-                        onFocus={[Function]}
-                        onKeyDown={[Function]}
-                        onKeyUp={[Function]}
-                        onMouseDown={[Function]}
-                        onMouseLeave={[Function]}
-                        onMouseUp={[Function]}
-                        onTouchEnd={[Function]}
-                        onTouchMove={[Function]}
-                        onTouchStart={[Function]}
-                        tabIndex={0}
-                        type="button"
-                      >
-                        <span
-                          className="MuiFab-label"
-                        >
-                          <ChevronUp
-                            color="white"
-                          >
-                            <svg
-                              fill="none"
-                              height={24}
-                              stroke="white"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              viewBox="0 0 24 24"
-                              width={24}
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <polyline
-                                points="18 15 12 9 6 15"
-                              />
-                            </svg>
-                          </ChevronUp>
-                        </span>
-                        <WithStyles(memo)
-                          center={false}
-                        >
-                          <ForwardRef(TouchRipple)
-                            center={false}
-                            classes={
-                              Object {
-                                "child": "MuiTouchRipple-child",
-                                "childLeaving": "MuiTouchRipple-childLeaving",
-                                "childPulsate": "MuiTouchRipple-childPulsate",
-                                "ripple": "MuiTouchRipple-ripple",
-                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                "root": "MuiTouchRipple-root",
-                              }
-                            }
-                          >
-                            <span
-                              className="MuiTouchRipple-root"
-                            >
-                              <TransitionGroup
-                                childFactory={[Function]}
-                                component={null}
-                                exit={true}
-                              />
-                            </span>
-                          </ForwardRef(TouchRipple)>
-                        </WithStyles(memo)>
-                      </button>
-                    </ForwardRef(ButtonBase)>
-                  </WithStyles(ForwardRef(ButtonBase))>
-                </ForwardRef(Fab)>
-              </WithStyles(ForwardRef(Fab))>
-            </div>
-          </Transition>
-        </ForwardRef(Zoom)>
-      </ScrollTop>
-    </ScrollToTopButton>
+    <ContentMarginContainer>
+      <div
+        className="makeStyles-root-1"
+      >
+        <div />
+      </div>
+    </ContentMarginContainer>
   </ThemeProvider>
-</ScrollToTopButtonWithTheme>
+</ContentMarginContainerWithTheme>
 `;

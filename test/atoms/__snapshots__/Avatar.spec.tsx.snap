@@ -5,6 +5,7 @@ exports[`Avatar should render large avatar without error 1`] = `
   alt="Jesse Meza"
   imgSize="large"
   src="/img/author_avatar.jpg"
+  toolTipText="Author"
 >
   <ThemeProvider
     theme={
@@ -148,7 +149,7 @@ exports[`Avatar should render large avatar without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -164,9 +165,9 @@ exports[`Avatar should render large avatar without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -388,44 +389,126 @@ exports[`Avatar should render large avatar without error 1`] = `
       }
     }
   >
-    <Avatar
+    <AuthorAvatar
       alt="Jesse Meza"
       imgSize="large"
       src="/img/author_avatar.jpg"
+      toolTipText="Author"
     >
-      <WithStyles(ForwardRef(Avatar))
-        alt="Jesse Meza"
-        className="makeStyles-large-3"
-        src="/img/author_avatar.jpg"
+      <Tooltip
+        arrow={true}
+        title="Author"
       >
-        <ForwardRef(Avatar)
-          alt="Jesse Meza"
-          className="makeStyles-large-3"
+        <WithStyles(ForwardRef(Tooltip))
+          arrow={true}
           classes={
             Object {
-              "circle": "MuiAvatar-circle",
-              "colorDefault": "MuiAvatar-colorDefault",
-              "fallback": "MuiAvatar-fallback",
-              "img": "MuiAvatar-img",
-              "root": "MuiAvatar-root",
-              "rounded": "MuiAvatar-rounded",
-              "square": "MuiAvatar-square",
+              "arrow": "makeStyles-arrow-6",
+              "tooltip": "makeStyles-tooltip-5",
             }
           }
-          src="/img/author_avatar.jpg"
+          title="Author"
         >
-          <div
-            className="MuiAvatar-root MuiAvatar-circle makeStyles-large-3"
+          <ForwardRef(Tooltip)
+            arrow={true}
+            classes={
+              Object {
+                "arrow": "MuiTooltip-arrow makeStyles-arrow-6",
+                "popper": "MuiTooltip-popper",
+                "popperArrow": "MuiTooltip-popperArrow",
+                "popperInteractive": "MuiTooltip-popperInteractive",
+                "tooltip": "MuiTooltip-tooltip makeStyles-tooltip-5",
+                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                "touch": "MuiTooltip-touch",
+              }
+            }
+            title="Author"
           >
-            <img
-              alt="Jesse Meza"
-              className="MuiAvatar-img"
-              src="/img/author_avatar.jpg"
+            <div
+              aria-describedby={null}
+              className=""
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              title="Author"
+            >
+              <WithStyles(ForwardRef(Avatar))
+                alt="Jesse Meza"
+                className="makeStyles-large-4"
+                src="/img/author_avatar.jpg"
+              >
+                <ForwardRef(Avatar)
+                  alt="Jesse Meza"
+                  className="makeStyles-large-4"
+                  classes={
+                    Object {
+                      "circle": "MuiAvatar-circle",
+                      "colorDefault": "MuiAvatar-colorDefault",
+                      "fallback": "MuiAvatar-fallback",
+                      "img": "MuiAvatar-img",
+                      "root": "MuiAvatar-root",
+                      "rounded": "MuiAvatar-rounded",
+                      "square": "MuiAvatar-square",
+                    }
+                  }
+                  src="/img/author_avatar.jpg"
+                >
+                  <div
+                    className="MuiAvatar-root MuiAvatar-circle makeStyles-large-4"
+                  >
+                    <img
+                      alt="Jesse Meza"
+                      className="MuiAvatar-img"
+                      src="/img/author_avatar.jpg"
+                    />
+                  </div>
+                </ForwardRef(Avatar)>
+              </WithStyles(ForwardRef(Avatar))>
+            </div>
+            <ForwardRef(Popper)
+              anchorEl={
+                <div
+                  class=""
+                  title="Author"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-large-4"
+                  >
+                    <img
+                      alt="Jesse Meza"
+                      class="MuiAvatar-img"
+                      src="/img/author_avatar.jpg"
+                    />
+                  </div>
+                </div>
+              }
+              className="MuiTooltip-popper MuiTooltip-popperArrow"
+              id={null}
+              open={false}
+              placement="bottom"
+              popperOptions={
+                Object {
+                  "modifiers": Object {
+                    "arrow": Object {
+                      "element": null,
+                      "enabled": false,
+                    },
+                  },
+                }
+              }
+              transition={true}
             />
-          </div>
-        </ForwardRef(Avatar)>
-      </WithStyles(ForwardRef(Avatar))>
-    </Avatar>
+          </ForwardRef(Tooltip)>
+        </WithStyles(ForwardRef(Tooltip))>
+      </Tooltip>
+    </AuthorAvatar>
   </ThemeProvider>
 </AvatarWithTheme>
 `;
@@ -435,6 +518,7 @@ exports[`Avatar should render medium avatar without error 1`] = `
   alt="Jesse Meza"
   imgSize="medium"
   src="/img/author_avatar.jpg"
+  toolTipText="Author"
 >
   <ThemeProvider
     theme={
@@ -578,7 +662,7 @@ exports[`Avatar should render medium avatar without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -594,9 +678,9 @@ exports[`Avatar should render medium avatar without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -818,44 +902,126 @@ exports[`Avatar should render medium avatar without error 1`] = `
       }
     }
   >
-    <Avatar
+    <AuthorAvatar
       alt="Jesse Meza"
       imgSize="medium"
       src="/img/author_avatar.jpg"
+      toolTipText="Author"
     >
-      <WithStyles(ForwardRef(Avatar))
-        alt="Jesse Meza"
-        className="makeStyles-medium-2"
-        src="/img/author_avatar.jpg"
+      <Tooltip
+        arrow={true}
+        title="Author"
       >
-        <ForwardRef(Avatar)
-          alt="Jesse Meza"
-          className="makeStyles-medium-2"
+        <WithStyles(ForwardRef(Tooltip))
+          arrow={true}
           classes={
             Object {
-              "circle": "MuiAvatar-circle",
-              "colorDefault": "MuiAvatar-colorDefault",
-              "fallback": "MuiAvatar-fallback",
-              "img": "MuiAvatar-img",
-              "root": "MuiAvatar-root",
-              "rounded": "MuiAvatar-rounded",
-              "square": "MuiAvatar-square",
+              "arrow": "makeStyles-arrow-6",
+              "tooltip": "makeStyles-tooltip-5",
             }
           }
-          src="/img/author_avatar.jpg"
+          title="Author"
         >
-          <div
-            className="MuiAvatar-root MuiAvatar-circle makeStyles-medium-2"
+          <ForwardRef(Tooltip)
+            arrow={true}
+            classes={
+              Object {
+                "arrow": "MuiTooltip-arrow makeStyles-arrow-6",
+                "popper": "MuiTooltip-popper",
+                "popperArrow": "MuiTooltip-popperArrow",
+                "popperInteractive": "MuiTooltip-popperInteractive",
+                "tooltip": "MuiTooltip-tooltip makeStyles-tooltip-5",
+                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                "touch": "MuiTooltip-touch",
+              }
+            }
+            title="Author"
           >
-            <img
-              alt="Jesse Meza"
-              className="MuiAvatar-img"
-              src="/img/author_avatar.jpg"
+            <div
+              aria-describedby={null}
+              className=""
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              title="Author"
+            >
+              <WithStyles(ForwardRef(Avatar))
+                alt="Jesse Meza"
+                className="makeStyles-medium-3"
+                src="/img/author_avatar.jpg"
+              >
+                <ForwardRef(Avatar)
+                  alt="Jesse Meza"
+                  className="makeStyles-medium-3"
+                  classes={
+                    Object {
+                      "circle": "MuiAvatar-circle",
+                      "colorDefault": "MuiAvatar-colorDefault",
+                      "fallback": "MuiAvatar-fallback",
+                      "img": "MuiAvatar-img",
+                      "root": "MuiAvatar-root",
+                      "rounded": "MuiAvatar-rounded",
+                      "square": "MuiAvatar-square",
+                    }
+                  }
+                  src="/img/author_avatar.jpg"
+                >
+                  <div
+                    className="MuiAvatar-root MuiAvatar-circle makeStyles-medium-3"
+                  >
+                    <img
+                      alt="Jesse Meza"
+                      className="MuiAvatar-img"
+                      src="/img/author_avatar.jpg"
+                    />
+                  </div>
+                </ForwardRef(Avatar)>
+              </WithStyles(ForwardRef(Avatar))>
+            </div>
+            <ForwardRef(Popper)
+              anchorEl={
+                <div
+                  class=""
+                  title="Author"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-medium-3"
+                  >
+                    <img
+                      alt="Jesse Meza"
+                      class="MuiAvatar-img"
+                      src="/img/author_avatar.jpg"
+                    />
+                  </div>
+                </div>
+              }
+              className="MuiTooltip-popper MuiTooltip-popperArrow"
+              id={null}
+              open={false}
+              placement="bottom"
+              popperOptions={
+                Object {
+                  "modifiers": Object {
+                    "arrow": Object {
+                      "element": null,
+                      "enabled": false,
+                    },
+                  },
+                }
+              }
+              transition={true}
             />
-          </div>
-        </ForwardRef(Avatar)>
-      </WithStyles(ForwardRef(Avatar))>
-    </Avatar>
+          </ForwardRef(Tooltip)>
+        </WithStyles(ForwardRef(Tooltip))>
+      </Tooltip>
+    </AuthorAvatar>
   </ThemeProvider>
 </AvatarWithTheme>
 `;
@@ -865,6 +1031,7 @@ exports[`Avatar should render small avatar without error 1`] = `
   alt="Jesse Meza"
   imgSize="small"
   src="/img/author_avatar.jpg"
+  toolTipText="Author"
 >
   <ThemeProvider
     theme={
@@ -1008,7 +1175,7 @@ exports[`Avatar should render small avatar without error 1`] = `
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#A81432",
-            "light": "#E15F79",
+            "light": "#E62E51",
             "main": "#DB1A3F",
           },
           "secondary": Object {
@@ -1024,9 +1191,9 @@ exports[`Avatar should render small avatar without error 1`] = `
             "main": "#4caf50",
           },
           "text": Object {
-            "disabled": " rgba(4, 28, 41, 0.56)",
+            "disabled": "rgba(4, 28, 41, 0.56)",
             "divider": "#DDE1E4",
-            "hint": " rgba(4, 28, 41, 0.75)",
+            "hint": "rgba(4, 28, 41, 0.75)",
             "primary": "rgba(4, 28, 41, 1)",
             "secondary": "rgba(4, 28, 41, 0.75)",
           },
@@ -1248,44 +1415,126 @@ exports[`Avatar should render small avatar without error 1`] = `
       }
     }
   >
-    <Avatar
+    <AuthorAvatar
       alt="Jesse Meza"
       imgSize="small"
       src="/img/author_avatar.jpg"
+      toolTipText="Author"
     >
-      <WithStyles(ForwardRef(Avatar))
-        alt="Jesse Meza"
-        className="makeStyles-small-1"
-        src="/img/author_avatar.jpg"
+      <Tooltip
+        arrow={true}
+        title="Author"
       >
-        <ForwardRef(Avatar)
-          alt="Jesse Meza"
-          className="makeStyles-small-1"
+        <WithStyles(ForwardRef(Tooltip))
+          arrow={true}
           classes={
             Object {
-              "circle": "MuiAvatar-circle",
-              "colorDefault": "MuiAvatar-colorDefault",
-              "fallback": "MuiAvatar-fallback",
-              "img": "MuiAvatar-img",
-              "root": "MuiAvatar-root",
-              "rounded": "MuiAvatar-rounded",
-              "square": "MuiAvatar-square",
+              "arrow": "makeStyles-arrow-6",
+              "tooltip": "makeStyles-tooltip-5",
             }
           }
-          src="/img/author_avatar.jpg"
+          title="Author"
         >
-          <div
-            className="MuiAvatar-root MuiAvatar-circle makeStyles-small-1"
+          <ForwardRef(Tooltip)
+            arrow={true}
+            classes={
+              Object {
+                "arrow": "MuiTooltip-arrow makeStyles-arrow-6",
+                "popper": "MuiTooltip-popper",
+                "popperArrow": "MuiTooltip-popperArrow",
+                "popperInteractive": "MuiTooltip-popperInteractive",
+                "tooltip": "MuiTooltip-tooltip makeStyles-tooltip-5",
+                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                "touch": "MuiTooltip-touch",
+              }
+            }
+            title="Author"
           >
-            <img
-              alt="Jesse Meza"
-              className="MuiAvatar-img"
-              src="/img/author_avatar.jpg"
+            <div
+              aria-describedby={null}
+              className=""
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              title="Author"
+            >
+              <WithStyles(ForwardRef(Avatar))
+                alt="Jesse Meza"
+                className="makeStyles-small-2"
+                src="/img/author_avatar.jpg"
+              >
+                <ForwardRef(Avatar)
+                  alt="Jesse Meza"
+                  className="makeStyles-small-2"
+                  classes={
+                    Object {
+                      "circle": "MuiAvatar-circle",
+                      "colorDefault": "MuiAvatar-colorDefault",
+                      "fallback": "MuiAvatar-fallback",
+                      "img": "MuiAvatar-img",
+                      "root": "MuiAvatar-root",
+                      "rounded": "MuiAvatar-rounded",
+                      "square": "MuiAvatar-square",
+                    }
+                  }
+                  src="/img/author_avatar.jpg"
+                >
+                  <div
+                    className="MuiAvatar-root MuiAvatar-circle makeStyles-small-2"
+                  >
+                    <img
+                      alt="Jesse Meza"
+                      className="MuiAvatar-img"
+                      src="/img/author_avatar.jpg"
+                    />
+                  </div>
+                </ForwardRef(Avatar)>
+              </WithStyles(ForwardRef(Avatar))>
+            </div>
+            <ForwardRef(Popper)
+              anchorEl={
+                <div
+                  class=""
+                  title="Author"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-small-2"
+                  >
+                    <img
+                      alt="Jesse Meza"
+                      class="MuiAvatar-img"
+                      src="/img/author_avatar.jpg"
+                    />
+                  </div>
+                </div>
+              }
+              className="MuiTooltip-popper MuiTooltip-popperArrow"
+              id={null}
+              open={false}
+              placement="bottom"
+              popperOptions={
+                Object {
+                  "modifiers": Object {
+                    "arrow": Object {
+                      "element": null,
+                      "enabled": false,
+                    },
+                  },
+                }
+              }
+              transition={true}
             />
-          </div>
-        </ForwardRef(Avatar)>
-      </WithStyles(ForwardRef(Avatar))>
-    </Avatar>
+          </ForwardRef(Tooltip)>
+        </WithStyles(ForwardRef(Tooltip))>
+      </Tooltip>
+    </AuthorAvatar>
   </ThemeProvider>
 </AvatarWithTheme>
 `;
