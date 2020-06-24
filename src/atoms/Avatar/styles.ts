@@ -1,17 +1,20 @@
 import { Theme, makeStyles } from '@material-ui/core';
 
 const styles: any = (theme: Theme | any) => ({
+    root: {
+        borderRadius: '50%',
+    },
     small: {
-        height: theme.spacing(2),
-        width: theme.spacing(2),
+        height: '16px',
+        width: '16px',
     },
     medium: {
-        height: theme.spacing(3),
-        width: theme.spacing(3),
+        height: '24px',
+        width: '24px',
     },
     large: {
-        height: theme.spacing(4),
-        width: theme.spacing(4),
+        height: '32px',
+        width: '32px',
     },
 });
 
