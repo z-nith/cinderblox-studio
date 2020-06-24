@@ -1,7 +1,7 @@
 const basePalette = {
     primary: {
         main: '#DB1A3F',
-        light: '#E15F79',
+        light: '#E62E51',
         dark: '#A81432',
     },
     secondary: {
@@ -39,8 +39,8 @@ const lightPalette = {
     text: {
         primary: 'rgba(4, 28, 41, 1)',
         secondary: 'rgba(4, 28, 41, 0.75)',
-        disabled: ' rgba(4, 28, 41, 0.56)',
-        hint: ' rgba(4, 28, 41, 0.75)',
+        disabled: 'rgba(4, 28, 41, 0.56)',
+        hint: 'rgba(4, 28, 41, 0.75)',
         divider: '#DDE1E4',
     },
 };
@@ -55,7 +55,7 @@ const darkPalette = {
         primary: 'rgba(255, 255, 255, 0.95)',
         secondary: 'rgba(255, 255, 255, 0.70)',
         disabled: 'rgba(255, 255, 255, 0.55)',
-        hint: ' rgba(255, 255, 255, 0.55)',
+        hint: 'rgba(255, 255, 255, 0.55)',
         divider: 'rgba(255, 255, 255, 0.02)',
     },
 };
