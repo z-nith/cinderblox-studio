@@ -1,4 +1,3 @@
-import AppBar from '../molecules/AppBar';
 import Avatar from './Avatar';
 import BaseLink from './BaseLink';
 import Button from './Button';
@@ -32,5 +31,4 @@ export {
     Typography,
     Avatar,
     Tooltip,
-    AppBar,
 };
