@@ -7,7 +7,7 @@ const CopyrightNotice = (props: CopyrightNoticePropTypes) => {
 
     return (
         <Typography className={classes.copyrightText}>
-            Copyright © CinderBlox Studio 2020. All rights reserved.
+            © CinderBlox 2020. All rights reserved.
         </Typography>
     );
 };
