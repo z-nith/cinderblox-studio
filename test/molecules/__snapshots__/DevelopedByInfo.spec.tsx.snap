@@ -90,7 +90,7 @@ exports[`DevelopedByInfo should render without error 1`] = `
           "augmentColor": [Function],
           "background": Object {
             "default": "#FFFFFF",
-            "paper": "#FFFFFF",
+            "paper": "#F9F9FA",
           },
           "common": Object {
             "black": "#000000",

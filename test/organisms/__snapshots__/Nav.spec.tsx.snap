@@ -90,7 +90,7 @@ exports[`Nav should render Nav without error 1`] = `
           "augmentColor": [Function],
           "background": Object {
             "default": "#FFFFFF",
-            "paper": "#FFFFFF",
+            "paper": "#F9F9FA",
           },
           "common": Object {
             "black": "#000000",
@@ -560,7 +560,7 @@ exports[`Nav should render Nav without error 1`] = `
                               className="makeStyles-flexRowBase-2 makeStyles-rowSpaceBetween-3"
                             >
                               <div
-                                className="makeStyles-socialLinkContainer-9"
+                                className="makeStyles-socialLinkContainer-8"
                               >
                                 <SocialMediaLink
                                   color="dark"
@@ -571,7 +571,7 @@ exports[`Nav should render Nav without error 1`] = `
                                   <WithStyles(ForwardRef(IconButton))
                                     classes={
                                       Object {
-                                        "root": "makeStyles-root-53",
+                                        "root": "makeStyles-root-52",
                                       }
                                     }
                                     component="a"
@@ -588,7 +588,7 @@ exports[`Nav should render Nav without error 1`] = `
                                           "edgeEnd": "MuiIconButton-edgeEnd",
                                           "edgeStart": "MuiIconButton-edgeStart",
                                           "label": "MuiIconButton-label",
-                                          "root": "MuiIconButton-root makeStyles-root-53",
+                                          "root": "MuiIconButton-root makeStyles-root-52",
                                           "sizeSmall": "MuiIconButton-sizeSmall",
                                         }
                                       }
@@ -598,7 +598,7 @@ exports[`Nav should render Nav without error 1`] = `
                                     >
                                       <WithStyles(ForwardRef(ButtonBase))
                                         centerRipple={true}
-                                        className="MuiIconButton-root makeStyles-root-53"
+                                        className="MuiIconButton-root makeStyles-root-52"
                                         component="a"
                                         disabled={false}
                                         focusRipple={true}
@@ -607,7 +607,7 @@ exports[`Nav should render Nav without error 1`] = `
                                       >
                                         <ForwardRef(ButtonBase)
                                           centerRipple={true}
-                                          className="MuiIconButton-root makeStyles-root-53"
+                                          className="MuiIconButton-root makeStyles-root-52"
                                           classes={
                                             Object {
                                               "disabled": "Mui-disabled",
@@ -623,7 +623,7 @@ exports[`Nav should render Nav without error 1`] = `
                                         >
                                           <a
                                             aria-disabled={false}
-                                            className="MuiButtonBase-root MuiIconButton-root makeStyles-root-53"
+                                            className="MuiButtonBase-root MuiIconButton-root makeStyles-root-52"
                                             href="https://github.com/z-nith/cinderblox-studio"
                                             onBlur={[Function]}
                                             onDragLeave={[Function]}
@@ -699,7 +699,7 @@ exports[`Nav should render Nav without error 1`] = `
                                 </SocialMediaLink>
                               </div>
                               <div
-                                className="makeStyles-socialLinkContainer-9"
+                                className="makeStyles-socialLinkContainer-8"
                               >
                                 <Link
                                   external={true}
@@ -707,7 +707,7 @@ exports[`Nav should render Nav without error 1`] = `
                                   variant="wrapper"
                                 >
                                   <a
-                                    className="makeStyles-wrapping-link-74"
+                                    className="makeStyles-wrapping-link-73"
                                     href="https://github.com/Jmeza081"
                                   >
                                     <Avatar
@@ -724,8 +724,8 @@ exports[`Nav should render Nav without error 1`] = `
                                           arrow={true}
                                           classes={
                                             Object {
-                                              "arrow": "makeStyles-arrow-80",
-                                              "tooltip": "makeStyles-tooltip-79",
+                                              "arrow": "makeStyles-arrow-79",
+                                              "tooltip": "makeStyles-tooltip-78",
                                             }
                                           }
                                           title="See more works by Jesse"
@@ -734,11 +734,11 @@ exports[`Nav should render Nav without error 1`] = `
                                             arrow={true}
                                             classes={
                                               Object {
-                                                "arrow": "MuiTooltip-arrow makeStyles-arrow-80",
+                                                "arrow": "MuiTooltip-arrow makeStyles-arrow-79",
                                                 "popper": "MuiTooltip-popper",
                                                 "popperArrow": "MuiTooltip-popperArrow",
                                                 "popperInteractive": "MuiTooltip-popperInteractive",
-                                                "tooltip": "MuiTooltip-tooltip makeStyles-tooltip-79",
+                                                "tooltip": "MuiTooltip-tooltip makeStyles-tooltip-78",
                                                 "tooltipArrow": "MuiTooltip-tooltipArrow",
                                                 "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
                                                 "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
@@ -762,12 +762,12 @@ exports[`Nav should render Nav without error 1`] = `
                                             >
                                               <WithStyles(ForwardRef(Avatar))
                                                 alt="Developer: Jesse Meza"
-                                                className="makeStyles-large-78"
+                                                className="makeStyles-large-77"
                                                 src="/img/author_avatar.jpg"
                                               >
                                                 <ForwardRef(Avatar)
                                                   alt="Developer: Jesse Meza"
-                                                  className="makeStyles-large-78"
+                                                  className="makeStyles-large-77"
                                                   classes={
                                                     Object {
                                                       "circle": "MuiAvatar-circle",
@@ -782,7 +782,7 @@ exports[`Nav should render Nav without error 1`] = `
                                                   src="/img/author_avatar.jpg"
                                                 >
                                                   <div
-                                                    className="MuiAvatar-root MuiAvatar-circle makeStyles-large-78"
+                                                    className="MuiAvatar-root MuiAvatar-circle makeStyles-large-77"
                                                   >
                                                     <img
                                                       alt="Developer: Jesse Meza"
@@ -800,7 +800,7 @@ exports[`Nav should render Nav without error 1`] = `
                                                   title="See more works by Jesse"
                                                 >
                                                   <div
-                                                    class="MuiAvatar-root MuiAvatar-circle makeStyles-large-78"
+                                                    class="MuiAvatar-root MuiAvatar-circle makeStyles-large-77"
                                                   >
                                                     <img
                                                       alt="Developer: Jesse Meza"
@@ -1246,8 +1246,8 @@ exports[`Nav should render Nav without error 1`] = `
               anchor="left"
               classes={
                 Object {
-                  "modal": "makeStyles-modalProps-99",
-                  "paper": "makeStyles-paper-100",
+                  "modal": "makeStyles-modalProps-98",
+                  "paper": "makeStyles-paper-99",
                 }
               }
               onClose={[Function]}
@@ -1275,8 +1275,8 @@ exports[`Nav should render Nav without error 1`] = `
                 anchor="left"
                 classes={
                   Object {
-                    "modal": "makeStyles-modalProps-99",
-                    "paper": "makeStyles-paper-100",
+                    "modal": "makeStyles-modalProps-98",
+                    "paper": "makeStyles-paper-99",
                   }
                 }
                 onClose={[Function]}
@@ -1310,18 +1310,18 @@ exports[`Nav should render Nav without error 1`] = `
                   anchor="left"
                   classes={
                     Object {
-                      "docked": "MuiDrawer-docked-108",
-                      "modal": "MuiDrawer-modal-118 makeStyles-modalProps-99",
-                      "paper": "MuiDrawer-paper-109 makeStyles-paper-100",
-                      "paperAnchorBottom": "MuiDrawer-paperAnchorBottom-113",
-                      "paperAnchorDockedBottom": "MuiDrawer-paperAnchorDockedBottom-117",
-                      "paperAnchorDockedLeft": "MuiDrawer-paperAnchorDockedLeft-114",
-                      "paperAnchorDockedRight": "MuiDrawer-paperAnchorDockedRight-116",
-                      "paperAnchorDockedTop": "MuiDrawer-paperAnchorDockedTop-115",
-                      "paperAnchorLeft": "MuiDrawer-paperAnchorLeft-110",
-                      "paperAnchorRight": "MuiDrawer-paperAnchorRight-111",
-                      "paperAnchorTop": "MuiDrawer-paperAnchorTop-112",
-                      "root": "MuiDrawer-root-107",
+                      "docked": "MuiDrawer-docked-107",
+                      "modal": "MuiDrawer-modal-117 makeStyles-modalProps-98",
+                      "paper": "MuiDrawer-paper-108 makeStyles-paper-99",
+                      "paperAnchorBottom": "MuiDrawer-paperAnchorBottom-112",
+                      "paperAnchorDockedBottom": "MuiDrawer-paperAnchorDockedBottom-116",
+                      "paperAnchorDockedLeft": "MuiDrawer-paperAnchorDockedLeft-113",
+                      "paperAnchorDockedRight": "MuiDrawer-paperAnchorDockedRight-115",
+                      "paperAnchorDockedTop": "MuiDrawer-paperAnchorDockedTop-114",
+                      "paperAnchorLeft": "MuiDrawer-paperAnchorLeft-109",
+                      "paperAnchorRight": "MuiDrawer-paperAnchorRight-110",
+                      "paperAnchorTop": "MuiDrawer-paperAnchorTop-111",
+                      "root": "MuiDrawer-root-106",
                     }
                   }
                   onClose={[Function]}
@@ -1659,7 +1659,7 @@ exports[`Nav should render Nav without error 1`] = `
                         },
                       }
                     }
-                    className="MuiDrawer-root-107 MuiDrawer-modal-118 makeStyles-modalProps-99"
+                    className="MuiDrawer-root-106 MuiDrawer-modal-117 makeStyles-modalProps-98"
                     onClose={[Function]}
                     open={false}
                   />
@@ -1674,17 +1674,17 @@ exports[`Nav should render Nav without error 1`] = `
                     anchor="left"
                     classes={
                       Object {
-                        "anchorBottom": "PrivateSwipeArea-anchorBottom-133",
-                        "anchorLeft": "PrivateSwipeArea-anchorLeft-130",
-                        "anchorRight": "PrivateSwipeArea-anchorRight-131",
-                        "anchorTop": "PrivateSwipeArea-anchorTop-132",
-                        "root": "PrivateSwipeArea-root-129",
+                        "anchorBottom": "PrivateSwipeArea-anchorBottom-132",
+                        "anchorLeft": "PrivateSwipeArea-anchorLeft-129",
+                        "anchorRight": "PrivateSwipeArea-anchorRight-130",
+                        "anchorTop": "PrivateSwipeArea-anchorTop-131",
+                        "root": "PrivateSwipeArea-root-128",
                       }
                     }
                     width={20}
                   >
                     <div
-                      className="PrivateSwipeArea-root-129 PrivateSwipeArea-anchorLeft-130"
+                      className="PrivateSwipeArea-root-128 PrivateSwipeArea-anchorLeft-129"
                       style={
                         Object {
                           "width": 20,

@@ -95,7 +95,7 @@ exports[`Avatar should render large avatar without error 1`] = `
           "augmentColor": [Function],
           "background": Object {
             "default": "#FFFFFF",
-            "paper": "#FFFFFF",
+            "paper": "#F9F9FA",
           },
           "common": Object {
             "black": "#000000",
@@ -608,7 +608,7 @@ exports[`Avatar should render medium avatar without error 1`] = `
           "augmentColor": [Function],
           "background": Object {
             "default": "#FFFFFF",
-            "paper": "#FFFFFF",
+            "paper": "#F9F9FA",
           },
           "common": Object {
             "black": "#000000",
@@ -1121,7 +1121,7 @@ exports[`Avatar should render small avatar without error 1`] = `
           "augmentColor": [Function],
           "background": Object {
             "default": "#FFFFFF",
-            "paper": "#FFFFFF",
+            "paper": "#F9F9FA",
           },
           "common": Object {
             "black": "#000000",
