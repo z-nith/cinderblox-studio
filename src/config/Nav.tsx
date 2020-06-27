@@ -56,6 +56,13 @@ export const GitHub: NavigationLinkWithIcon = {
     external: true,
 };
 
+export const ZenithGithub: NavigationLinkWithIcon = {
+    href: 'https://github.com/z-nith/',
+    displayText: 'GitHub',
+    icon: <GitHubFeather color={'white'} />,
+    external: true,
+};
+
 export const Author: NavigationLinkWithIcon = {
     href: 'https://github.com/Jmeza081',
     displayText: 'More projects from Jesse',
