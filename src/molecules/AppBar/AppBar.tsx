@@ -5,11 +5,10 @@ import {
     Hidden,
     IconButton,
     Toolbar,
-    Typography,
 } from '@material-ui/core';
-import { Avatar, Link } from 'atoms';
+import { Avatar, ClickableLogo, Link } from 'atoms';
 import SocialMediaLink from 'atoms/SocialMediaLink';
-import { ApiDocs, App, Author, GitHub, Releases, Home } from 'config/Nav';
+import { ApiDocs, App, Author, GitHub, Releases } from 'config/Nav';
 import { Menu } from 'react-feather';
 import { NavigationLinkWithIcon } from 'types/navigation';
 import ElevationScroll from './ElevationScroll';
@@ -27,21 +26,6 @@ const AppBar = (props: AppBarPropTypes) => {
                     <Menu color={'white'} />
                 </IconButton>
             </Hidden>
-        );
-    };
-
-    const renderClickableLogo = () => {
-        return (
-            <Link
-                underline={'none'}
-                href={Home.href}
-                external={false}
-                variant={'wrapper'}
-            >
-                <Typography variant="h6" className={classes.title}>
-                    CinderBlox
-                </Typography>
-            </Link>
         );
     };
 
@@ -108,10 +92,14 @@ const AppBar = (props: AppBarPropTypes) => {
                 >
                     <div className={clsx(classes.flexRowBase, classes.toolbarLeft)}>
                         {renderMenuButton()}
-                        <Hidden smDown>{renderClickableLogo()}</Hidden>
+                        <Hidden smDown>
+                            <ClickableLogo />
+                        </Hidden>
                     </div>
                     <div className={clsx(classes.flexRowBase, classes.toolbarCenter)}>
-                        <Hidden mdUp>{renderClickableLogo()}</Hidden>
+                        <Hidden mdUp>
+                            <ClickableLogo />
+                        </Hidden>
                         {renderNavLinks()}
                     </div>
                     <div className={clsx(classes.flexRowBase, classes.toolbarRight)}>

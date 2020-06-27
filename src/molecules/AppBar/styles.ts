@@ -51,12 +51,6 @@ const styles: any = (theme: Theme | any) => ({
     /***********
      * CONTENT *
      ***********/
-    title: {
-        color: theme.palette.common.white,
-        fontFamily: 'Montserrat',
-        fontWeight: 900,
-        textDecoration: 'none',
-    },
     navlinkContainer: {
         padding: theme.spacing(0, 2),
     },
