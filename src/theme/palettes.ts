@@ -33,7 +33,7 @@ const lightPalette = {
     ...basePalette,
     background: {
         default: '#FFFFFF',
-        paper: '#FFFFFF',
+        paper: '#F9F9FA',
     },
 
     text: {
