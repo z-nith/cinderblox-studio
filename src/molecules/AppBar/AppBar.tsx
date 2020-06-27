@@ -7,12 +7,11 @@ import {
     Toolbar,
     Typography,
 } from '@material-ui/core';
-import Avatar from 'atoms/Avatar';
-import Link from 'atoms/Link';
+import { Avatar, Link } from 'atoms';
 import SocialMediaLink from 'atoms/SocialMediaLink';
-import { APP_BAR } from 'config/Nav';
+import { ApiDocs, App, Author, GitHub, Releases, Home } from 'config/Nav';
 import { Menu } from 'react-feather';
-import { navigationLink } from 'types/navigation';
+import { NavigationLinkWithIcon } from 'types/navigation';
 import ElevationScroll from './ElevationScroll';
 import clsx from 'clsx';
 import useStyles from './styles';
@@ -33,7 +32,12 @@ const AppBar = (props: AppBarPropTypes) => {
 
     const renderClickableLogo = () => {
         return (
-            <Link underline={'none'} href={'/'} variant={'wrapper'}>
+            <Link
+                underline={'none'}
+                href={Home.href}
+                external={false}
+                variant={'wrapper'}
+            >
                 <Typography variant="h6" className={classes.title}>
                     CinderBlox
                 </Typography>
@@ -45,7 +49,7 @@ const AppBar = (props: AppBarPropTypes) => {
         return (
             <Hidden smDown>
                 <div className={clsx(classes.flexRowBase, classes.rowSpaceBetween)}>
-                    {APP_BAR.map((navLink: navigationLink) => {
+                    {[ApiDocs, App, Releases].map((navLink: NavigationLinkWithIcon) => {
                         return (
                             <div
                                 key={navLink.displayText}
@@ -75,12 +79,12 @@ const AppBar = (props: AppBarPropTypes) => {
                         variant={'github'}
                         color={'dark'}
                         iconSize={'small'}
-                        href={'https://github.com/'}
+                        href={GitHub.href}
                     />
                 </div>
 
                 <div className={classes.socialLinkContainer}>
-                    <Link variant={'wrapper'} href={'//z-nith.design'} external>
+                    <Link variant={'wrapper'} href={Author.href} external>
                         <Avatar
                             toolTipText={'See more works by Jesse'}
                             src={'/img/author_avatar.jpg'}
