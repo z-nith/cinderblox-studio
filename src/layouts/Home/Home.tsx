@@ -1,15 +1,32 @@
 import React from 'react';
 import { List, ListItem, ListItemAvatar, ListItemText } from '@material-ui/core';
-import { AppBar, Button, ListItemCounter, ScrollToTopButton, Typography } from 'atoms';
+import { Button, ListItemCounter, ScrollToTopButton, Typography } from 'atoms';
+import ContentMarginContianer from 'atoms/ContentMarginContainer';
+import { ApiDocs, App } from 'config/Nav';
+import { FooterLinkGroup } from 'molecules';
+import { Nav } from 'organisms';
 import { ExternalLink, GitHub } from 'react-feather';
 //import CloudLarge from '../../../public/img/large_cloud.svg';
 import AppFrame from '../../../public/img/AppFrame.svg';
 import useStyles from './styles';
-import ContentMarginContianer from 'atoms/ContentMarginContainer';
-import { Nav } from 'organisms';
 
 const Home = (props: HomePropTypes) => {
     const classes = useStyles();
+
+    const renderFooter = () => {
+        const footerLinks = [];
+        return (
+            <div
+                style={{
+                    minHeight: '500px',
+                    width: '100%',
+                    backgroundColor: 'rgba(0, 0, 0, 0.04)',
+                }}
+            >
+                <FooterLinkGroup links={[App, ApiDocs]} groupHeader={'For clients'} />
+            </div>
+        );
+    };
 
     const renderHowItWorks = () => {
         return (
@@ -188,6 +205,7 @@ const Home = (props: HomePropTypes) => {
                 {renderHowItWorks()}
                 <ScrollToTopButton {...props} />
             </ContentMarginContianer>
+            {renderFooter()}
         </React.Fragment>
     );
 };
