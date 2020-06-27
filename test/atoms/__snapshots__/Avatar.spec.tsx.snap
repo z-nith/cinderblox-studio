@@ -389,7 +389,7 @@ exports[`Avatar should render large avatar without error 1`] = `
       }
     }
   >
-    <AuthorAvatar
+    <Avatar
       alt="Jesse Meza"
       imgSize="large"
       src="/img/author_avatar.jpg"
@@ -508,7 +508,7 @@ exports[`Avatar should render large avatar without error 1`] = `
           </ForwardRef(Tooltip)>
         </WithStyles(ForwardRef(Tooltip))>
       </Tooltip>
-    </AuthorAvatar>
+    </Avatar>
   </ThemeProvider>
 </AvatarWithTheme>
 `;
@@ -902,7 +902,7 @@ exports[`Avatar should render medium avatar without error 1`] = `
       }
     }
   >
-    <AuthorAvatar
+    <Avatar
       alt="Jesse Meza"
       imgSize="medium"
       src="/img/author_avatar.jpg"
@@ -1021,7 +1021,7 @@ exports[`Avatar should render medium avatar without error 1`] = `
           </ForwardRef(Tooltip)>
         </WithStyles(ForwardRef(Tooltip))>
       </Tooltip>
-    </AuthorAvatar>
+    </Avatar>
   </ThemeProvider>
 </AvatarWithTheme>
 `;
@@ -1415,7 +1415,7 @@ exports[`Avatar should render small avatar without error 1`] = `
       }
     }
   >
-    <AuthorAvatar
+    <Avatar
       alt="Jesse Meza"
       imgSize="small"
       src="/img/author_avatar.jpg"
@@ -1534,7 +1534,7 @@ exports[`Avatar should render small avatar without error 1`] = `
           </ForwardRef(Tooltip)>
         </WithStyles(ForwardRef(Tooltip))>
       </Tooltip>
-    </AuthorAvatar>
+    </Avatar>
   </ThemeProvider>
 </AvatarWithTheme>
 `;

@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DrawerListItem should render without error 1`] = `
-<DrawerListItemWithTheme>
+exports[`DrawerListItem should  render list item without error 1`] = `
+<DrawerListItemWithTheme
+  external={true}
+  href="https://github.com/"
+  icon={
+    <GitHub
+      color="white"
+    />
+  }
+  text="Github"
+>
   <ThemeProvider
     theme={
       Object {
@@ -384,7 +393,16 @@ exports[`DrawerListItem should render without error 1`] = `
       }
     }
   >
-    <Index>
+    <Index
+      external={true}
+      href="https://github.com/"
+      icon={
+        <GitHub
+          color="white"
+        />
+      }
+      text="Github"
+    >
       <ThemeProvider
         theme={
           Object {
@@ -767,148 +785,234 @@ exports[`DrawerListItem should render without error 1`] = `
           }
         }
       >
-        <DrawerListItem>
-          <WithStyles(ForwardRef(ListItem))>
+        <DrawerListItem
+          external={true}
+          href="https://github.com/"
+          icon={
+            <GitHub
+              color="white"
+            />
+          }
+          text="Github"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            classes={
+              Object {
+                "root": "makeStyles-container-1",
+              }
+            }
+            component="a"
+            disableTouchRipple={true}
+            href="https://github.com/"
+          >
             <ForwardRef(ListItem)
+              button={true}
               classes={
                 Object {
-                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart-6",
-                  "button": "MuiListItem-button-10",
-                  "container": "MuiListItem-container-3",
-                  "dense": "MuiListItem-dense-5",
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart-7",
+                  "button": "MuiListItem-button-11",
+                  "container": "MuiListItem-container-4",
+                  "dense": "MuiListItem-dense-6",
                   "disabled": "Mui-disabled",
-                  "divider": "MuiListItem-divider-8",
+                  "divider": "MuiListItem-divider-9",
                   "focusVisible": "Mui-focusVisible",
-                  "gutters": "MuiListItem-gutters-9",
-                  "root": "MuiListItem-root-2",
-                  "secondaryAction": "MuiListItem-secondaryAction-11",
+                  "gutters": "MuiListItem-gutters-10",
+                  "root": "MuiListItem-root-3 makeStyles-container-1",
+                  "secondaryAction": "MuiListItem-secondaryAction-12",
                   "selected": "Mui-selected",
                 }
               }
+              component="a"
+              disableTouchRipple={true}
+              href="https://github.com/"
             >
-              <li
-                className="MuiListItem-root-2 MuiListItem-gutters-9"
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiListItem-root-3 makeStyles-container-1 MuiListItem-gutters-10 MuiListItem-button-11"
+                component="a"
+                disableTouchRipple={true}
                 disabled={false}
+                focusVisibleClassName="Mui-focusVisible"
+                href="https://github.com/"
               >
-                <WithStyles(ForwardRef(ListItemIcon))
-                  key=".0"
-                >
-                  <ForwardRef(ListItemIcon)
-                    classes={
-                      Object {
-                        "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart-14",
-                        "root": "MuiListItemIcon-root-13",
-                      }
+                <ForwardRef(ButtonBase)
+                  className="MuiListItem-root-3 makeStyles-container-1 MuiListItem-gutters-10 MuiListItem-button-11"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root-14",
                     }
+                  }
+                  component="a"
+                  disableTouchRipple={true}
+                  disabled={false}
+                  focusVisibleClassName="Mui-focusVisible"
+                  href="https://github.com/"
+                >
+                  <a
+                    aria-disabled={false}
+                    className="MuiButtonBase-root-14 MuiListItem-root-3 makeStyles-container-1 MuiListItem-gutters-10 MuiListItem-button-11"
+                    href="https://github.com/"
+                    onBlur={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
                   >
-                    <div
-                      className="MuiListItemIcon-root-13"
+                    <WithStyles(ForwardRef(ListItemIcon))
+                      key=".0"
                     >
-                      <Book
+                      <ForwardRef(ListItemIcon)
+                        classes={
+                          Object {
+                            "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart-18",
+                            "root": "MuiListItemIcon-root-17",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiListItemIcon-root-17"
+                        >
+                          <GitHub
+                            color="white"
+                          >
+                            <svg
+                              fill="none"
+                              height={24}
+                              stroke="white"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              viewBox="0 0 24 24"
+                              width={24}
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                              />
+                            </svg>
+                          </GitHub>
+                        </div>
+                      </ForwardRef(ListItemIcon)>
+                    </WithStyles(ForwardRef(ListItemIcon))>
+                    <WithStyles(ForwardRef(ListItemText))
+                      className="makeStyles-listItemText-2"
+                      color="white"
+                      key=".1"
+                    >
+                      <ForwardRef(ListItemText)
+                        className="makeStyles-listItemText-2"
+                        classes={
+                          Object {
+                            "dense": "MuiListItemText-dense-21",
+                            "inset": "MuiListItemText-inset-22",
+                            "multiline": "MuiListItemText-multiline-20",
+                            "primary": "MuiListItemText-primary-23",
+                            "root": "MuiListItemText-root-19",
+                            "secondary": "MuiListItemText-secondary-24",
+                          }
+                        }
                         color="white"
                       >
-                        <svg
-                          fill="none"
-                          height={24}
-                          stroke="white"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          viewBox="0 0 24 24"
-                          width={24}
-                          xmlns="http://www.w3.org/2000/svg"
+                        <div
+                          className="MuiListItemText-root-19 makeStyles-listItemText-2"
+                          color="white"
                         >
-                          <path
-                            d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"
-                          />
-                          <path
-                            d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
-                          />
-                        </svg>
-                      </Book>
-                    </div>
-                  </ForwardRef(ListItemIcon)>
-                </WithStyles(ForwardRef(ListItemIcon))>
-                <WithStyles(ForwardRef(ListItemText))
-                  className="makeStyles-listItemText-1"
-                  color="white"
-                  key=".1"
-                >
-                  <ForwardRef(ListItemText)
-                    className="makeStyles-listItemText-1"
-                    classes={
-                      Object {
-                        "dense": "MuiListItemText-dense-17",
-                        "inset": "MuiListItemText-inset-18",
-                        "multiline": "MuiListItemText-multiline-16",
-                        "primary": "MuiListItemText-primary-19",
-                        "root": "MuiListItemText-root-15",
-                        "secondary": "MuiListItemText-secondary-20",
-                      }
-                    }
-                    color="white"
-                  >
-                    <div
-                      className="MuiListItemText-root-15 makeStyles-listItemText-1"
-                      color="white"
-                    >
-                      <WithStyles(ForwardRef(Typography))
-                        className="MuiListItemText-primary-19"
-                        component="span"
-                        display="block"
-                        variant="body1"
-                      >
-                        <ForwardRef(Typography)
-                          className="MuiListItemText-primary-19"
-                          classes={
-                            Object {
-                              "alignCenter": "MuiTypography-alignCenter-37",
-                              "alignJustify": "MuiTypography-alignJustify-39",
-                              "alignLeft": "MuiTypography-alignLeft-36",
-                              "alignRight": "MuiTypography-alignRight-38",
-                              "body1": "MuiTypography-body1-23",
-                              "body2": "MuiTypography-body2-22",
-                              "button": "MuiTypography-button-25",
-                              "caption": "MuiTypography-caption-24",
-                              "colorError": "MuiTypography-colorError-48",
-                              "colorInherit": "MuiTypography-colorInherit-43",
-                              "colorPrimary": "MuiTypography-colorPrimary-44",
-                              "colorSecondary": "MuiTypography-colorSecondary-45",
-                              "colorTextPrimary": "MuiTypography-colorTextPrimary-46",
-                              "colorTextSecondary": "MuiTypography-colorTextSecondary-47",
-                              "displayBlock": "MuiTypography-displayBlock-50",
-                              "displayInline": "MuiTypography-displayInline-49",
-                              "gutterBottom": "MuiTypography-gutterBottom-41",
-                              "h1": "MuiTypography-h1-26",
-                              "h2": "MuiTypography-h2-27",
-                              "h3": "MuiTypography-h3-28",
-                              "h4": "MuiTypography-h4-29",
-                              "h5": "MuiTypography-h5-30",
-                              "h6": "MuiTypography-h6-31",
-                              "noWrap": "MuiTypography-noWrap-40",
-                              "overline": "MuiTypography-overline-34",
-                              "paragraph": "MuiTypography-paragraph-42",
-                              "root": "MuiTypography-root-21",
-                              "srOnly": "MuiTypography-srOnly-35",
-                              "subtitle1": "MuiTypography-subtitle1-32",
-                              "subtitle2": "MuiTypography-subtitle2-33",
-                            }
-                          }
-                          component="span"
-                          display="block"
-                          variant="body1"
-                        >
-                          <span
-                            className="MuiTypography-root-21 MuiListItemText-primary-19 MuiTypography-body1-23 MuiTypography-displayBlock-50"
+                          <WithStyles(ForwardRef(Typography))
+                            className="MuiListItemText-primary-23"
+                            component="span"
+                            display="block"
+                            variant="body1"
                           >
-                            API Docs
-                          </span>
-                        </ForwardRef(Typography)>
-                      </WithStyles(ForwardRef(Typography))>
-                    </div>
-                  </ForwardRef(ListItemText)>
-                </WithStyles(ForwardRef(ListItemText))>
-              </li>
+                            <ForwardRef(Typography)
+                              className="MuiListItemText-primary-23"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter-41",
+                                  "alignJustify": "MuiTypography-alignJustify-43",
+                                  "alignLeft": "MuiTypography-alignLeft-40",
+                                  "alignRight": "MuiTypography-alignRight-42",
+                                  "body1": "MuiTypography-body1-27",
+                                  "body2": "MuiTypography-body2-26",
+                                  "button": "MuiTypography-button-29",
+                                  "caption": "MuiTypography-caption-28",
+                                  "colorError": "MuiTypography-colorError-52",
+                                  "colorInherit": "MuiTypography-colorInherit-47",
+                                  "colorPrimary": "MuiTypography-colorPrimary-48",
+                                  "colorSecondary": "MuiTypography-colorSecondary-49",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary-50",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary-51",
+                                  "displayBlock": "MuiTypography-displayBlock-54",
+                                  "displayInline": "MuiTypography-displayInline-53",
+                                  "gutterBottom": "MuiTypography-gutterBottom-45",
+                                  "h1": "MuiTypography-h1-30",
+                                  "h2": "MuiTypography-h2-31",
+                                  "h3": "MuiTypography-h3-32",
+                                  "h4": "MuiTypography-h4-33",
+                                  "h5": "MuiTypography-h5-34",
+                                  "h6": "MuiTypography-h6-35",
+                                  "noWrap": "MuiTypography-noWrap-44",
+                                  "overline": "MuiTypography-overline-38",
+                                  "paragraph": "MuiTypography-paragraph-46",
+                                  "root": "MuiTypography-root-25",
+                                  "srOnly": "MuiTypography-srOnly-39",
+                                  "subtitle1": "MuiTypography-subtitle1-36",
+                                  "subtitle2": "MuiTypography-subtitle2-37",
+                                }
+                              }
+                              component="span"
+                              display="block"
+                              variant="body1"
+                            >
+                              <span
+                                className="MuiTypography-root-25 MuiListItemText-primary-23 MuiTypography-body1-27 MuiTypography-displayBlock-54"
+                              >
+                                Github
+                              </span>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </ForwardRef(ListItemText)>
+                    </WithStyles(ForwardRef(ListItemText))>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child-59",
+                            "childLeaving": "MuiTouchRipple-childLeaving-60",
+                            "childPulsate": "MuiTouchRipple-childPulsate-61",
+                            "ripple": "MuiTouchRipple-ripple-56",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate-58",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-57",
+                            "root": "MuiTouchRipple-root-55",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root-55"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </a>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
             </ForwardRef(ListItem)>
           </WithStyles(ForwardRef(ListItem))>
         </DrawerListItem>

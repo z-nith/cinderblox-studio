@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CopyrightNotice should render without error 1`] = `
-<CopyrightNoticeWithTheme>
+exports[`DevelopedByInfo should render without error 1`] = `
+<DevelopedByInfoWithTheme>
   <ThemeProvider
     theme={
       Object {
@@ -384,55 +384,235 @@ exports[`CopyrightNotice should render without error 1`] = `
       }
     }
   >
-    <CopyrightNotice>
-      <WithStyles(ForwardRef(Typography))
-        className="makeStyles-copyrightText-1"
+    <DevelopedByInfo>
+      <div
+        className="makeStyles-root-1"
       >
-        <ForwardRef(Typography)
-          className="makeStyles-copyrightText-1"
-          classes={
-            Object {
-              "alignCenter": "MuiTypography-alignCenter",
-              "alignJustify": "MuiTypography-alignJustify",
-              "alignLeft": "MuiTypography-alignLeft",
-              "alignRight": "MuiTypography-alignRight",
-              "body1": "MuiTypography-body1",
-              "body2": "MuiTypography-body2",
-              "button": "MuiTypography-button",
-              "caption": "MuiTypography-caption",
-              "colorError": "MuiTypography-colorError",
-              "colorInherit": "MuiTypography-colorInherit",
-              "colorPrimary": "MuiTypography-colorPrimary",
-              "colorSecondary": "MuiTypography-colorSecondary",
-              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-              "displayBlock": "MuiTypography-displayBlock",
-              "displayInline": "MuiTypography-displayInline",
-              "gutterBottom": "MuiTypography-gutterBottom",
-              "h1": "MuiTypography-h1",
-              "h2": "MuiTypography-h2",
-              "h3": "MuiTypography-h3",
-              "h4": "MuiTypography-h4",
-              "h5": "MuiTypography-h5",
-              "h6": "MuiTypography-h6",
-              "noWrap": "MuiTypography-noWrap",
-              "overline": "MuiTypography-overline",
-              "paragraph": "MuiTypography-paragraph",
-              "root": "MuiTypography-root",
-              "srOnly": "MuiTypography-srOnly",
-              "subtitle1": "MuiTypography-subtitle1",
-              "subtitle2": "MuiTypography-subtitle2",
-            }
-          }
+        <Avatar
+          alt="Developer: Jesse Meza"
+          imgSize="medium"
+          src="/img/author_avatar.jpg"
+          toolTipText="See more works by Jesse"
         >
-          <p
-            className="MuiTypography-root makeStyles-copyrightText-1 MuiTypography-body1"
+          <Tooltip
+            arrow={true}
+            title="See more works by Jesse"
           >
-            © CinderBlox 2020. All rights reserved.
-          </p>
-        </ForwardRef(Typography)>
-      </WithStyles(ForwardRef(Typography))>
-    </CopyrightNotice>
+            <WithStyles(ForwardRef(Tooltip))
+              arrow={true}
+              classes={
+                Object {
+                  "arrow": "makeStyles-arrow-8",
+                  "tooltip": "makeStyles-tooltip-7",
+                }
+              }
+              title="See more works by Jesse"
+            >
+              <ForwardRef(Tooltip)
+                arrow={true}
+                classes={
+                  Object {
+                    "arrow": "MuiTooltip-arrow makeStyles-arrow-8",
+                    "popper": "MuiTooltip-popper",
+                    "popperArrow": "MuiTooltip-popperArrow",
+                    "popperInteractive": "MuiTooltip-popperInteractive",
+                    "tooltip": "MuiTooltip-tooltip makeStyles-tooltip-7",
+                    "tooltipArrow": "MuiTooltip-tooltipArrow",
+                    "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                    "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                    "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                    "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                    "touch": "MuiTooltip-touch",
+                  }
+                }
+                title="See more works by Jesse"
+              >
+                <div
+                  aria-describedby={null}
+                  className=""
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseOver={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  title="See more works by Jesse"
+                >
+                  <WithStyles(ForwardRef(Avatar))
+                    alt="Developer: Jesse Meza"
+                    className="makeStyles-medium-5"
+                    src="/img/author_avatar.jpg"
+                  >
+                    <ForwardRef(Avatar)
+                      alt="Developer: Jesse Meza"
+                      className="makeStyles-medium-5"
+                      classes={
+                        Object {
+                          "circle": "MuiAvatar-circle",
+                          "colorDefault": "MuiAvatar-colorDefault",
+                          "fallback": "MuiAvatar-fallback",
+                          "img": "MuiAvatar-img",
+                          "root": "MuiAvatar-root",
+                          "rounded": "MuiAvatar-rounded",
+                          "square": "MuiAvatar-square",
+                        }
+                      }
+                      src="/img/author_avatar.jpg"
+                    >
+                      <div
+                        className="MuiAvatar-root MuiAvatar-circle makeStyles-medium-5"
+                      >
+                        <img
+                          alt="Developer: Jesse Meza"
+                          className="MuiAvatar-img"
+                          src="/img/author_avatar.jpg"
+                        />
+                      </div>
+                    </ForwardRef(Avatar)>
+                  </WithStyles(ForwardRef(Avatar))>
+                </div>
+                <ForwardRef(Popper)
+                  anchorEl={
+                    <div
+                      class=""
+                      title="See more works by Jesse"
+                    >
+                      <div
+                        class="MuiAvatar-root MuiAvatar-circle makeStyles-medium-5"
+                      >
+                        <img
+                          alt="Developer: Jesse Meza"
+                          class="MuiAvatar-img"
+                          src="/img/author_avatar.jpg"
+                        />
+                      </div>
+                    </div>
+                  }
+                  className="MuiTooltip-popper MuiTooltip-popperArrow"
+                  id={null}
+                  open={false}
+                  placement="bottom"
+                  popperOptions={
+                    Object {
+                      "modifiers": Object {
+                        "arrow": Object {
+                          "element": null,
+                          "enabled": false,
+                        },
+                      },
+                    }
+                  }
+                  transition={true}
+                />
+              </ForwardRef(Tooltip)>
+            </WithStyles(ForwardRef(Tooltip))>
+          </Tooltip>
+        </Avatar>
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-developerText-2"
+          component="span"
+          variant="body1"
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-developerText-2"
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+            component="span"
+            variant="body1"
+          >
+            <span
+              className="MuiTypography-root makeStyles-developerText-2 MuiTypography-body1"
+            >
+              Developed by
+               
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                display="inline"
+                variant="body1"
+              >
+                <ForwardRef(Typography)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTypography-alignCenter",
+                      "alignJustify": "MuiTypography-alignJustify",
+                      "alignLeft": "MuiTypography-alignLeft",
+                      "alignRight": "MuiTypography-alignRight",
+                      "body1": "MuiTypography-body1",
+                      "body2": "MuiTypography-body2",
+                      "button": "MuiTypography-button",
+                      "caption": "MuiTypography-caption",
+                      "colorError": "MuiTypography-colorError",
+                      "colorInherit": "MuiTypography-colorInherit",
+                      "colorPrimary": "MuiTypography-colorPrimary",
+                      "colorSecondary": "MuiTypography-colorSecondary",
+                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                      "displayBlock": "MuiTypography-displayBlock",
+                      "displayInline": "MuiTypography-displayInline",
+                      "gutterBottom": "MuiTypography-gutterBottom",
+                      "h1": "MuiTypography-h1",
+                      "h2": "MuiTypography-h2",
+                      "h3": "MuiTypography-h3",
+                      "h4": "MuiTypography-h4",
+                      "h5": "MuiTypography-h5",
+                      "h6": "MuiTypography-h6",
+                      "noWrap": "MuiTypography-noWrap",
+                      "overline": "MuiTypography-overline",
+                      "paragraph": "MuiTypography-paragraph",
+                      "root": "MuiTypography-root",
+                      "srOnly": "MuiTypography-srOnly",
+                      "subtitle1": "MuiTypography-subtitle1",
+                      "subtitle2": "MuiTypography-subtitle2",
+                    }
+                  }
+                  color="primary"
+                  display="inline"
+                  variant="body1"
+                >
+                  <p
+                    className="MuiTypography-root MuiTypography-body1 MuiTypography-colorPrimary MuiTypography-displayInline"
+                  >
+                    Jesse Meza
+                  </p>
+                </ForwardRef(Typography)>
+              </WithStyles(ForwardRef(Typography))>
+            </span>
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+      </div>
+    </DevelopedByInfo>
   </ThemeProvider>
-</CopyrightNoticeWithTheme>
+</DevelopedByInfoWithTheme>
 `;
