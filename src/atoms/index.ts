@@ -1,6 +1,7 @@
 import Avatar from './Avatar';
 import BaseLink from './BaseLink';
 import Button from './Button';
+import ClickableLogo from './ClickableLogo';
 import ContentMarginContainer from './ContentMarginContainer';
 import CopyrightNotice from './CopyrightNotice';
 import DrawerListItem from './DrawerListItem';
@@ -31,4 +32,5 @@ export {
     Typography,
     Avatar,
     Tooltip,
+    ClickableLogo,
 };
