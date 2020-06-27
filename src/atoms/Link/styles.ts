@@ -14,6 +14,7 @@ const styles: any = (theme: Theme | any) => ({
         '&:hover': {
             color: theme.palette.primary.main,
         },
+        textDecoration: 'none',
     },
     'naked-link': {
         textDecoration: 'underline',
@@ -21,6 +22,11 @@ const styles: any = (theme: Theme | any) => ({
     'appBar-link': {
         color: theme.palette.common.white,
         textDecoration: 'none',
+        fontWeight: 'bold',
+        '&:hover': {
+            textDecoration: 'none',
+            color: theme.palette.custom.white60,
+        },
     },
     'wrapping-link': {
         textDecoration: 'none',
