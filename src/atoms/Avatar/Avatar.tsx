@@ -1,10 +1,10 @@
 import React from 'react';
-import { Avatar, AvatarProps } from '@material-ui/core';
+import { Avatar as MuiAvatar, AvatarProps } from '@material-ui/core';
 import { Tooltip } from 'atoms';
 import { size } from 'types/size';
 import useStyles from './styles';
 
-const AuthorAvatar = (props: AvatarPropTypes) => {
+const Avatar = (props: AvatarPropTypes) => {
     const { imgSize, toolTipText, ...rest } = props;
 
     const classes = useStyles();
@@ -12,7 +12,7 @@ const AuthorAvatar = (props: AvatarPropTypes) => {
     return (
         <Tooltip title={toolTipText} arrow>
             <div>
-                <Avatar {...rest} className={classes[imgSize]} />
+                <MuiAvatar {...rest} className={classes[imgSize]} />
             </div>
         </Tooltip>
     );
@@ -23,4 +23,4 @@ export type AvatarPropTypes = AvatarProps & {
     toolTipText?: string;
 };
 
-export default AuthorAvatar;
+export default Avatar;
