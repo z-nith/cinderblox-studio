@@ -4,19 +4,9 @@ import {
     IconButton,
     SwipeableDrawer,
     SwipeableDrawerProps,
-    Typography,
 } from '@material-ui/core';
-import { CopyrightNotice, DrawerListItem, Link } from 'atoms';
-import {
-    ApiDocs,
-    App,
-    Author,
-    GitHub,
-    Home,
-    Licenses,
-    Releases,
-    TermsOfUse,
-} from 'config/Nav';
+import { ClickableLogo, CopyrightNotice, DrawerListItem, Link } from 'atoms';
+import { ApiDocs, App, Author, GitHub, Licenses, Releases, TermsOfUse } from 'config/Nav';
 import { DevelopedByInfo } from 'molecules';
 import { X } from 'react-feather';
 import useStyles from './styles';
@@ -25,16 +15,6 @@ const Drawer = (props: DrawerPropTypes) => {
     const classes = useStyles();
 
     const { anchor, onMenuCloseClick, ...rest } = props;
-
-    const renderClickableLogo = () => {
-        return (
-            <Link underline={'none'} href={Home.href} variant={'wrapper'}>
-                <Typography variant="h6" color={'textPrimary'}>
-                    CinderBlox
-                </Typography>
-            </Link>
-        );
-    };
 
     const renderCloseButton = () => {
         return (
@@ -58,7 +38,7 @@ const Drawer = (props: DrawerPropTypes) => {
             }}
         >
             <div className={classes.header}>
-                {renderClickableLogo()}
+                <ClickableLogo />
                 {renderCloseButton()}
             </div>
             <DrawerListItem
