@@ -4,7 +4,7 @@ import { Button, ListItemCounter, ScrollToTopButton, Typography } from 'atoms';
 import ContentMarginContianer from 'atoms/ContentMarginContainer';
 import { ApiDocs, App } from 'config/Nav';
 import { FooterLinkGroup } from 'molecules';
-import { Nav } from 'organisms';
+import { Nav, Footer } from 'organisms';
 import { ExternalLink, GitHub } from 'react-feather';
 //import CloudLarge from '../../../public/img/large_cloud.svg';
 import AppFrame from '../../../public/img/AppFrame.svg';
@@ -15,17 +15,7 @@ const Home = (props: HomePropTypes) => {
 
     const renderFooter = () => {
         const footerLinks = [];
-        return (
-            <div
-                style={{
-                    minHeight: '500px',
-                    width: '100%',
-                    backgroundColor: 'rgba(0, 0, 0, 0.04)',
-                }}
-            >
-                <FooterLinkGroup links={[App, ApiDocs]} groupHeader={'For clients'} />
-            </div>
-        );
+        return <Footer />;
     };
 
     const renderHowItWorks = () => {
