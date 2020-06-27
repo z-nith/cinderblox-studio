@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar } from 'atoms';
+import { AppBar } from 'molecules';
 import { Drawer } from 'organisms';
 
 const Nav = (props: NavPropTypes) => {
@@ -8,7 +8,7 @@ const Nav = (props: NavPropTypes) => {
     return (
         <React.Fragment>
             <AppBar
-                onMobileMenuClick={(event) => {
+                onMobileMenuClick={() => {
                     setDrawerIsOpen(true);
                 }}
             />
@@ -21,6 +21,7 @@ const Nav = (props: NavPropTypes) => {
                 onClose={() => {
                     setDrawerIsOpen(false);
                 }}
+                onMenuCloseClick={() => setDrawerIsOpen(false)}
             />
         </React.Fragment>
     );
