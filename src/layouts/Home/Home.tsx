@@ -1,13 +1,9 @@
 import React from 'react';
-import { List, ListItem, ListItemAvatar, ListItemText } from '@material-ui/core';
+import { List, ListItem, ListItemAvatar, ListItemText, NoSsr } from '@material-ui/core';
 import { Button, ListItemCounter, ScrollToTopButton, Typography } from 'atoms';
 import ContentMarginContianer from 'atoms/ContentMarginContainer';
-import { ApiDocs, App } from 'config/Nav';
-import { FooterLinkGroup } from 'molecules';
-import { Nav, Footer } from 'organisms';
+import { Footer, LandingHeader, Nav } from 'organisms';
 import { ExternalLink, GitHub } from 'react-feather';
-//import CloudLarge from '../../../public/img/large_cloud.svg';
-import AppFrame from '../../../public/img/AppFrame.svg';
 import useStyles from './styles';
 
 const Home = (props: HomePropTypes) => {
@@ -104,80 +100,11 @@ const Home = (props: HomePropTypes) => {
     };
 
     return (
-        <React.Fragment>
+        <div>
             <Nav />
-            <div className={classes.root}>
-                <div
-                    style={{
-                        //paddingTop: '300px',
-                        width: '100%',
-
-                        display: 'flex',
-                        flexDirection: 'row',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                    }}
-                >
-                    <div>
-                        <div
-                            style={{
-                                width: '100%',
-
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                            }}
-                        >
-                            {/* <CloudLarge className={classes.testSvg} /> */}
-
-                            <Typography
-                                align={'center'}
-                                variant={'h1'}
-                                className={classes.headerText}
-                            >
-                                Inspiration in the cloud
-                            </Typography>
-                            <Typography
-                                align={'center'}
-                                variant={'body1'}
-                                className={classes.headerText}
-                            >
-                                Build beautiful color palettes for your next project using
-                                images
-                            </Typography>
-                        </div>
-
-                        <div
-                            style={{
-                                display: 'flex',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                paddingTop: '32px',
-                            }}
-                        >
-                            <Button
-                                variant={'contained'}
-                                color={'primary'}
-                                onClick={() => {}}
-                                paddingRight
-                            >
-                                Get Started
-                            </Button>
-                            <Button
-                                variant={'contained'}
-                                color={'secondary'}
-                                onClick={() => {}}
-                                startIcon={<ExternalLink color="black" size={18} />}
-                            >
-                                Learn more
-                            </Button>
-                        </div>
-                        <AppFrame className={classes.testSvg} />
-                    </div>
-                </div>
-            </div>
+            <NoSsr>
+                <LandingHeader />
+            </NoSsr>
 
             <ContentMarginContianer className={classes.addMarginBottom}>
                 <div
@@ -196,7 +123,7 @@ const Home = (props: HomePropTypes) => {
                 <ScrollToTopButton {...props} />
             </ContentMarginContianer>
             {renderFooter()}
-        </React.Fragment>
+        </div>
     );
 };
 
