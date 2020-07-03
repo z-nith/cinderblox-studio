@@ -2,7 +2,7 @@ import { Theme, makeStyles } from '@material-ui/core';
 
 const styles: any = (theme: Theme | any) => ({
     root: {
-        padding: theme.spacing(4, 0, 2, 0),
+        padding: theme.spacing(4, 0),
         minHeight: '300px',
         backgroundColor: theme.palette.background.paper,
         display: 'flex',
@@ -11,7 +11,7 @@ const styles: any = (theme: Theme | any) => ({
         width: '100%',
     },
     gridContainer: {
-        margin: theme.spacing(0, 2),
+        padding: theme.spacing(0, 2),
     },
     developerInfoContainer: {
         paddingBottom: theme.spacing(2),
