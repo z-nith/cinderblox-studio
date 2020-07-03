@@ -4,6 +4,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import { NextComponentType, NextPageContext } from 'next';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import theme from 'theme';
 import './globals.css';
 
@@ -28,9 +29,11 @@ export default function MyApp(props: any) {
                 />
             </Head>
             <ThemeProvider theme={theme}>
-                {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-                <CssBaseline />
-                <Component {...pageProps} />
+                <ParallaxProvider>
+                    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+                    <CssBaseline />
+                    <Component {...pageProps} />
+                </ParallaxProvider>
             </ThemeProvider>
         </React.Fragment>
     );
