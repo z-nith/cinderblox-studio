@@ -16,6 +16,7 @@ const styles: any = (theme: Theme | any) => ({
         color: theme.palette.common.white,
         '&:hover': {
             backgroundColor: theme.palette.primary.dark,
+            textDecoration: 'none',
         },
     },
     containedSecondary: {
@@ -23,6 +24,7 @@ const styles: any = (theme: Theme | any) => ({
         backgroundColor: theme.palette.custom.greyDark,
         '&:hover': {
             backgroundColor: theme.palette.custom.greyDarker,
+            textDecoration: 'none',
         },
     },
     addRightPadding: {
