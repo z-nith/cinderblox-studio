@@ -7,6 +7,7 @@ import {
     Package,
     Server,
     Info,
+    ExternalLink,
 } from 'react-feather';
 import { NavigationLinkWithIcon } from 'types/navigation';
 
@@ -68,4 +69,11 @@ export const Author: NavigationLinkWithIcon = {
     displayText: 'More projects from Jesse',
     external: true,
     icon: <GitHubFeather color={'white'} />,
+};
+
+export const LearnMore: NavigationLinkWithIcon = {
+    href: 'https://en.wikipedia.org/wiki/Color_quantization',
+    displayText: 'Learn more',
+    external: true,
+    icon: <ExternalLink color={'white'} />,
 };
