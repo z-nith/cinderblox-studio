@@ -3,7 +3,9 @@ import clsx from 'clsx';
 import React from 'react';
 import useStyles from './styles';
 
-const Button = (props: ButtonPropTypes) => {
+const Button = <T extends React.ElementType>(
+    props: ButtonPropTypes & ButtonProps<T, { component?: T }>,
+) => {
     const classes = useStyles();
     const { paddingRight, addGlow, color, ...rest } = props;
 
@@ -14,6 +16,7 @@ const Button = (props: ButtonPropTypes) => {
             })}
         >
             <MuiButton
+                {...rest}
                 classes={{
                     root: clsx(classes.root, {
                         [classes.addPrimaryGlow]: addGlow && color === 'primary',
@@ -26,7 +29,6 @@ const Button = (props: ButtonPropTypes) => {
                 color={color}
                 disableRipple
                 //disableElevation
-                {...rest}
             />
         </div>
     );
@@ -37,7 +39,7 @@ Button.defaultProps = {
     paddingRight: false,
 };
 
-export type ButtonPropTypes = ButtonProps & {
+export type ButtonPropTypes = {
     addGlow?: boolean;
     paddingRight?: boolean;
 };
