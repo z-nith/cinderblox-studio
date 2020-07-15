@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button, Typography } from 'atoms';
+import { Button, Typography, BaseLink } from 'atoms';
 import { ExternalLink } from 'react-feather';
 import { ParallaxBanner } from 'react-scroll-parallax';
 import AppFrame from '../../../public/img/AppFrame.svg';
 import CloudLarge from '../../../public/img/large_cloud.svg';
 import SmallCloud from '../../../public/img/short_cloud.svg';
+import { App, LearnMore } from 'config/Nav';
 import useStyles from './styles';
 
 const LandingHeader = (props: LandingHeaderPropTypes) => {
@@ -28,7 +29,9 @@ const LandingHeader = (props: LandingHeaderPropTypes) => {
                     <Button
                         variant={'contained'}
                         color={'primary'}
-                        onClick={() => {}}
+                        component={BaseLink}
+                        href={App.href}
+                        as={App.as}
                         paddingRight
                     >
                         Get Started
@@ -36,27 +39,20 @@ const LandingHeader = (props: LandingHeaderPropTypes) => {
                     <Button
                         variant={'contained'}
                         color={'secondary'}
-                        onClick={() => {}}
+                        component={'a'}
+                        href={LearnMore.href}
                         startIcon={<ExternalLink color="black" size={18} />}
                     >
-                        Learn more
+                        {LearnMore.displayText}
                     </Button>
                 </div>
             </div>
         );
     };
 
-    /**
-     * NOTE: The use window.innerHeight is needed to prevent jerking motion
-     * of animated clouds via parallax. Because of this, this component
-     * must be used in tandem with noSSR to prevent rendering issues
-     */
     return (
         <ParallaxBanner
             className={classes.root}
-            style={{
-                height: `${window.innerHeight}px`,
-            }}
             layers={[
                 {
                     children: (
