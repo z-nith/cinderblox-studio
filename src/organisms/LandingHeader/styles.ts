@@ -3,8 +3,7 @@ import { Theme, makeStyles } from '@material-ui/core';
 const styles: any = (theme: Theme | any) => ({
     root: {
         display: 'flex',
-        height: '100vh',
-        minHeight: '680px',
+        minHeight: '100vh',
         width: '100vw',
         background:
             'linear-gradient(0deg, rgba(1,130,195,1) 0%, rgba(44,146,205,1)  90%)',
