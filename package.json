@@ -73,8 +73,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "pretty-quick --staged",
-            "pre-push": "yarn test --silent"
+            "pre-commit": "pretty-quick --staged"
         }
     },
     "engines": {
