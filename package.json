@@ -1,9 +1,9 @@
 {
-    "name": "zenith-mui-template",
+    "name": "cinderblox-studio",
     "version": "0.1.0",
-    "description": "Next.js boilerplate utilising MUI, React & Atomic Design",
+    "description": "An open-source web application showcasing the power of color quantization",
     "main": "index.js",
-    "repository": "https://github.com/z-nith/zenith-mui-template.git",
+    "repository": "https://github.com/z-nith/cinderblox-studio.git",
     "author": "Jesse Meza <jmeza081@gmail.com>",
     "license": "MIT",
     "scripts": {
@@ -30,7 +30,7 @@
         "jsdom": "@latest",
         "mdi-material-ui": "@latest",
         "next": "@latest",
-        "next-seo": "@latest",
+        "next-seo": "^4.7.3",
         "notistack": "@latest",
         "react": "@latest",
         "react-dom": "@latest",
