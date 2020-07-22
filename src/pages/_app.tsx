@@ -5,6 +5,7 @@ import { NextComponentType, NextPageContext } from 'next';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { DefaultSeo } from 'next-seo';
 import theme from 'theme';
 import './globals.css';
 
@@ -28,6 +29,25 @@ export default function MyApp(props: any) {
                     content="minimum-scale=1, initial-scale=1, width=device-width"
                 />
             </Head>
+            <DefaultSeo
+                openGraph={{
+                    type: 'website',
+                    locale: 'en_IE',
+                    url: 'https://cinderblox.studio/',
+                    site_name: 'CinderBlox Studio',
+                    description: 'Build beautiful color palettes in the cloud',
+                    images: [
+                        {
+                            url:
+                                'https://res.cloudinary.com/znth/image/upload/v1595455108/Open_Graph_Image_hcy12f.png',
+                            width: 800,
+                            height: 600,
+                            alt: 'Og Image',
+                        },
+                    ],
+                }}
+                description={'Build beautiful color palettes in the cloud'}
+            />
             <ThemeProvider theme={theme}>
                 <ParallaxProvider>
                     {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
