@@ -20,9 +20,9 @@
 
 ## Motivation
 
-I initially built `CinderBlox` as a fun side-project to showcase my front-end architecture skills (and practice my Typescript) while combining it with something I love: color theory. I initially had plans to write a CLI (called [Stratomorph-CLI](https://github.com/z-nith/stratomorph-cli)) which leverages an open-source node module ([RgbQuant](https://github.com/leeoniya/RgbQuant.js)) to achieve the same purpose locally. Although this project was a nice thought experiment, I decided to step up the complexity and built a fully functional web application and public API.
+I initially built `CinderBlox` as a fun side-project to showcase my front-end architecture skills (and practice my Typescript) while combining it with something I love: color theory. I initially had plans to write a CLI (called [Stratomorph-CLI](https://github.com/z-nith/stratomorph-cli)) which leverages an open-source node module ([RgbQuant](https://github.com/leeoniya/RgbQuant.js)) to achieve the same purpose locally. Although this project was a nice thought experiment, I decided to step up the complexity and build a fully functional web application and public API.
 
-Although there is a myriad of applications which accomplish the same function, many of these are closed-source and non-extensible. I've always been an strong believer of the open-source community and their ability to create projects that not-only serve the same purpose, by allow the power user to extend it beyond its initial conception.
+Although there is a myriad of applications which accomplish the same function, many of these are closed-source and non-extensible. I've always been an strong believer of the open-source community and their ability to create projects that not only serve the same purpose, by allow the power user to extend it beyond its initial conception.
 
 ## Technologies
 
