@@ -1,9 +1,11 @@
+# ⚠️This project is under active development & may not reflect the listed features below⚠️
+I haven't had the time to continue working on this project. But rest assured, it will be finished.... someday 🙃
 ![cinderblox header](https://res.cloudinary.com/znth/image/upload/v1595451088/Github_Banner_o61lrz.png)
 
 ![License](https://img.shields.io/badge/license-MIT-%2300A2FF?style=for-the-badge&labelColor=%23121516) ![Styled With](https://img.shields.io/badge/formatted--with-prettier-%23DB1A3F?style=for-the-badge&labelColor=%23121516)
 ![Deployed on Now](https://img.shields.io/badge/deployed--with-vercel-%2300A2FF?style=for-the-badge&labelColor=%23121516)
 
-> ⚠️This project is under active development & may not reflect the listed features below
+
 
 ## What is CinderBlox Studio?
 
